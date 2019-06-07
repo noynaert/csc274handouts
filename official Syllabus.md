@@ -16,7 +16,7 @@ Bash Guide for Beginners,
 ## Objectives
 
 * Develop confidence in working at the command line
-* Understand the roles of the Linus and Unix command line environment
+* Understand the roles of the Linux and Unix command line environment
 * Use vi and vim
 * Understand basic process management
 * Understand files and directory structures
