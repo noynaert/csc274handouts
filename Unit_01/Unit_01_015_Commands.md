@@ -121,7 +121,7 @@ wget https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/dilbe
 cowsay -f ./dilbert.cow 'TGIF'
 ```
 
-### another command to investigate
+### Another command to investigate
 
 ```bash
 $ man date
