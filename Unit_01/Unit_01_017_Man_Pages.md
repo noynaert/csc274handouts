@@ -1,5 +1,13 @@
 # Man Pages
 
+In preparation for this exercise do the following command:
+
+```bash
+wget http://turing.cs.missouriwestern.edu/moby.txt
+```
+
+This fetches a large text file we can use to play with.
+
 ## More or Less
 
 More is an old (and outdated) program for stepping through large text files one page at a time.
@@ -42,13 +50,14 @@ There are a lot of less commands.  You don't need to learn them all immediately.
 - What does 50G do?
 - What does 1G do?
 - What does 50 plus spacebar do?  How is that different than spacebar by itself?
+- What does the colon : do?
 
 ### Searching
 
-- / plus pattern
+- /*pattern*
   - n to go to next match
   - N to go to previous match
-- ? plus pattern to search backwards
+- ?*pattern* to search backwards
   - n to go to next match
   - N to go to previous match
 
