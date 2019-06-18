@@ -97,6 +97,38 @@ $ ping www.missouriwestern.edu
 $ ping turing.cs.missouriwestern.edu
 ```
 
+## Introduction to man pages
+
+```bash
+$ man cowsay
+```
+
+* For now, read the description
+* Look at the options that start with -
+* Use the PgDn and PgUp keys to move through the file.
+* Try the -d option.  Then try some of the other options.
+
+Do some experimenting.  Have some fun.  Try using more than one of the options at the same time.  Are there any that don't make sense to use together?
+
+Look at the listing produced by *cowsay -l*
+
+Now try using the -f command with the list of files from -l
+
+The website https://github.com/paulkaefer/cowsay-files/tree/master/cows is proof that some people have too much time on their hands.  Try the two following commands
+
+```bash
+wget https://raw.githubusercontent.com/paulkaefer/cowsay-files/master/cows/dilbert.cow
+cowsay -f ./dilbert.cow 'TGIF'
+```
+
+### another command to investigate
+
+```bash
+$ man date
+```
+
+Some options start with --.  This is a new style that was in vogue for a while.  Now it is mostly used for documentation when you look at tutorials.
+
 ## Pipes Interlude
 
 Pipes will not be on this quiz.  Pipes will be covered in a later unit.  
@@ -118,6 +150,12 @@ Now "pipe" the output of the date command as input to the cowsay command.
 
 ```bash
 $ date  |  cowsay
+$ fortune
+$ fortune | cowsay
+$ figlet 'Hello'
+$ figlet 'Hello' | cowsay
+$ figlet 'Hello' | cowsay -n
+$ date | figlet | cowsay -n
 ```
 
 Reminder.  Pipes will not be on the Unit 1 quiz.  But they are useful and pretty easy.
