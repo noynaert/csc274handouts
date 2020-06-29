@@ -19,3 +19,7 @@ Week 11 -- Regular expressions with sed (or awk)
 Week 12 -- Linux environments (dual boot, cloud)
 Week 13 -- Installing and securing a Linux environment
 Week 14 -- Mini project~~
+
+## The MIT "Missing Semester" project:
+
+The [MIT "Missing Semester" project](https://missing.csail.mit.edu/) is potentially a useful resource for this course.  If you have trouble understanding a unit, one option is to find the overlapping topics in the MIT "Missing Semester" course.
