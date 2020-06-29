@@ -112,4 +112,8 @@ cowsay -ftux "Hi"
 
 There are actually fairly complex rules about when you can and can't use blanks, what happens which flags conflict, and other factors.  For example, what would happen if you asked for a cow that was both wired and dead?  The important thing for now is to not sweat the details too much.  For now, get comfortable entering commands.  Get used to editing them with the arrow keys and backspace.  You can worry about the minutia of syntax later.
 
-As always, ```cowsay -f dragon "Have a lot of fun!"```
+As always, 
+
+```bash
+cowsay -f dragon "Have a lot of fun!"
+```
