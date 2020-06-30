@@ -7,9 +7,9 @@ Each unit corresponds roughly to one week of class.
 
 Week 01 -- Getting connected and changing passwords
 Week 02 -- Basic commands and man pages
-Week 03 -- Files, wildcards, and vi
+Week 03 -- Files, Directories wildcards, globbing, and vi
 Week 04 -- Redirection, Pipes, and system devices (/dev/null and /dev/random as examples)
-Week 05 -- Directories, globbing (more about wildcards)
+Week 05 -- Regular expressions and parameter expansion
 Week 06 -- Midterm
 Week 07 -- Basic scripts and if structures (using exists and directores as conditions) Basic script variables.
 Week 08 -- Scripting using lists, arguments, and loops
