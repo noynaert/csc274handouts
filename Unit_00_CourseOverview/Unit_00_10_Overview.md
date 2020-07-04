@@ -14,7 +14,7 @@
 
 How Unix was developed | A teletype
 -----------------------|-----------
-![Thompson and Ritchie at PDP-11](/Unit_00_CourseOverview/images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg) | ![A teletype machine showing the peg-style keyboard and paper](/Unit_00_CourseOverview/images/800px-Telex_machine_ASR-32.jpg)
+![Thompson and Ritchie at PDP-11](/Unit_00_CourseOverview/images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg) | ![A teletype machine showing the peg-style keyboard and paper](/Unit_00_CourseOverview/images/teletype.jpg)
 
 CRT terminals were not available at that time.  Teletypes were the most common interface.  The use of teletypes had a couple of implications for us today:
 
@@ -63,7 +63,7 @@ Historically there have been different shells that were used.
   * They have an entirely different shell (Interface) but they are still Linux.
     * There is an experimental way to load Bash on a Chromebook.
     * You can load bash on your Android, even without Rooting your phone
-    * ![Bash on Android](images/BashOnAndroid.png)
+    * ![Bash on Android](images/BashOnAndroidSmall.png)
 
 # This Semester
 
