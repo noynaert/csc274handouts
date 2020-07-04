@@ -31,7 +31,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 
   ### Dumb Terminals
 
-  ![A CRT Dumb Terminal](/Unit_00_CourseOverview/images/800px-HP-HP2624B-Terminal_17.jpg)
+  ![A CRT Dumb Terminal](/Unit_00_CourseOverview/images/hpDumbTerminal.jpg)
   
   Dumb Terminals replaced the teletype.  This was the model used on our campus until about 1990.
 
