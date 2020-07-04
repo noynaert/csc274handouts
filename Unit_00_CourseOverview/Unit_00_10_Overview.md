@@ -14,8 +14,7 @@
 
 How Unix was developed | A teletype
 -----------------------|-----------
-![Ken Thompson (sitting) and Dennis Ritchie working together at a PDP-11](images/) |![A teletype machine](images) 
-The point I want to make here is that Unix was developed on text-based teletype machines.|This is a teletype machine.  Input was from a keyboard that was hard to type fast on.  Output was to paper.
+![Thompson and Ritchie at PDP-11](/Unit_00_CourseOverview/images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg) | ![A teletype machine showing the peg-style keyboard and paper](/Unit_00_CourseOverview/images/800px-Telex_machine_ASR-32.jpg)
 
 CRT terminals were not available at that time.  Teletypes were the most common interface.  The use of teletypes had a couple of implications for us today:
 
@@ -32,7 +31,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 
   ### Dumb Terminals
 
-  ![A CRT Dumb Terminal](images/800px-HP-HP2624B-Terminal_17.jpg)
+  ![A CRT Dumb Terminal](/Unit_00_CourseOverview/images/800px-HP-HP2624B-Terminal_17.jpg)
   
   Dumb Terminals replaced the teletype.  This was the model used on our campus until about 1990.
 
@@ -62,10 +61,16 @@ Historically there have been different shells that were used.
 * Android phones and Chromebooks use the Linux kernel
   * Therefore they are technically Linux
   * They have an entirely different shell (Interface) but they are still Linux.
+    * There is an experimental way to load Bash on a Chromebook.
     * You can load bash on your Android, even without Rooting your phone
-    * ![Bash on Android](/home/noynaert/Classes/csc274/csc274notes/Unit_00_CourseOverview/images/BashOnAndroid.png)
+    * ![Bash on Android](images/BashOnAndroid.png)
 
 # This Semester
 
 * Most of this semester we will focus on Bash.
 * The focus will be Linux-centric.  However, you can also apply it to other Unix-type systems such as Mac.  Much of the material will apply to Bash running on those systems.
+* You will *not* need to run Linux on your own computer until late in the semester.
+  * You are welcome to do so, however.
+    * Use an old computer.
+    * Dual Boot (higher risk).
+    * Rapberry Pi or something similar.
