@@ -41,7 +41,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 * No color.  Either green on black or orange on black.
 * No Graphics other than ASCII Graphics.
   
-  ![ASCII Graphics](images/asciiArt.png)
+  ![ASCII Graphics](images/asciiArtSmall.png)
 
 # Unix Shell
 
