@@ -35,7 +35,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
   
   Dumb Terminals replaced the teletype.  This was the model used on our campus until about 1990.
 
-* No CPU.  They were just a keyboard and monitor that connected to a remote computer somewhere.
+* No CPU.  They were just a keyboard and monitor that connected to a remote computer.
 * Still not fun to type on, but better typing than teletype
 * No cost of paper, but only 24 or 25 lines.  So parsimonious output is still important.
 * No color.  Either green on black or orange on black.
@@ -65,7 +65,7 @@ Historically there have been different shells that were used.
     * You can load bash on your Android, even without Rooting your phone
     * ![Bash on Android](images/BashOnAndroidSmall.png)
 
-# This Semester
+## This Semester
 
 * Most of this semester we will focus on Bash.
 * The focus will be Linux-centric.  However, you can also apply it to other Unix-type systems such as Mac.  Much of the material will apply to Bash running on those systems.
@@ -74,3 +74,9 @@ Historically there have been different shells that were used.
     * Use an old computer.
     * Dual Boot (higher risk).
     * Rapberry Pi or something similar.
+
+## Further reading (optional)
+
+For those who are interested or bored, here is some additional material.  This is optional.  It will not appear on quizzes or exams.
+
+* [Differences between Unix and Linux](https://www.howtogeek.com/679989/what-are-the-differences-between-linux-and-unix/) This also has a relatively brief history of Linux and Unix.
