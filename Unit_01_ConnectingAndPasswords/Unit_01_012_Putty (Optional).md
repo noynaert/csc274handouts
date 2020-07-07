@@ -1,6 +1,6 @@
 # Unit 01.12  Putty
 
-This section is optional.  It is only needed by students who have older versions of Windows.
+This section is optional.  Students with old versions of Windows will probably have to use Putty or some other software.  But any Windows user should be able to use Putty.
 
 However, even people who have ssh available in their local terminals may prefer putty or bitvise.
 
