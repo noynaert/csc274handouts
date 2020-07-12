@@ -2,6 +2,15 @@
 
 Make sure you have a terminal window open.
 
+Commands you should know after this handout.
+
+* date
+* cal
+* clear
+* pwd
+* fortune
+* cowsay
+
 ## The Prompt
 
 ## Typing Commands
@@ -14,31 +23,6 @@ Make sure you have a terminal window open.
   * clear
   * pwd
   * fortune (this may not be installed on all systems)
-
-## Istalling new commands
-
-Three main types of distributions
-* Debian Based  (.deb)
-  * Debian
-  * Ubuntu, Kubuntu, etc
-  * Mint
-  * Pop!
-* Red Hat (.rpm based)
-  * Red Hat
-  * Fedora
-  * Suse
-* Others
-  * Arch
-  * Slackware
-  
-### Apt  
-  * apt or apt-get for .deb distributions
-  * dnf or yum for .rpm distributions
-
-### New kids on the block:
-  * snap
-  * flatpack
-  * appimagec      
 
 ## Arguments, Flags, and Options
 
@@ -72,7 +56,7 @@ You may use "double quotes" to force the white space to be honored.
 echo "Pepperoni           Pizza"
 ```
 
-'Single quotes' work, too.  But they mean something slightly different.  For now, just use double quotes
+'Single quotes' work, too.  But they mean something slightly different.
 
 ```bash
 echo 'Pepperoni           Pizza'
@@ -117,3 +101,32 @@ As always,
 ```bash
 cowsay -f dragon "Have a lot of fun!"
 ```
+
+## Istalling new commands
+
+Installing some commands requires you to be an administrator on the system.  The administrators are referred to as "super users."  On the turing.cs system most students are not super users, but if you install Ubuntu on a laptop you will have super user rights.
+
+For now you don't need to know all of these distributions.  But you do need to know that there are different distributions.  You should know that the turing.cs system is running Ubuntu which is based on the Debian distribution.
+
+Three main types of distributions
+* Debian Based  (.deb)
+  * Debian
+  * Ubuntu, Kubuntu, etc
+  * Mint
+  * Pop!
+* Red Hat (.rpm based)
+  * Red Hat
+  * Fedora
+  * Suse
+* Others
+  * Arch
+  * Slackware
+  
+### Apt  
+  * apt or apt-get for .deb distributions
+  * dnf or yum for .rpm distributions
+
+### New kids on the block:
+  * snap
+  * flatpack
+  * appimagec      

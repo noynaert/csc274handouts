@@ -34,11 +34,11 @@ The first warning on the less page is that the commands are based on "vi"
 - Start two command windows, do an ssh session to turing in each window.
   - Open "man less" in one window.
   - Open "less moby.txt" in the other window.
-  - Arrange them side by side.
-
+  - Arrange the windows side by side.
 
 There are a lot of less commands.  You don't need to learn them all immediately.  You don't need to learn some of them ever!
 
+- How do you exit and get back to the terminal?
 - Arrow keys and PgUp and PgDn keys work as expected.
 - What key does half-page up?
 - What key does half-page down?
