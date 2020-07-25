@@ -45,7 +45,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 
 # Unix Shell
 
-The shell is what we type into.  It is a program that takes input from the keyboard, passes it to the *kernel* and displays the output to the screen.  The shell is the interface between the user and the operaating system.
+The shell is what we type commands into.  It is a program that takes input from the keyboard, passes it to the *kernel* and displays the output to the screen.  The shell is the interface between the user and the operaating system.
 
 Historically there have been different shells that were used.
 
