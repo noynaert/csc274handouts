@@ -14,8 +14,8 @@ Each unit corresponds roughly to one week of class.
 - Week 07 -- Basic scripts and if structures (using exists and directores as conditions) Basic script variables.
 - Week 08 -- Scripting using lists, arguments, and loops
 - Week 09 -- Environmental variables and [Expansion](http://linuxcommand.org/lc3_lts0080.php)
-- Week 10 -- Regular expressions with grep and egrep
-- Week 11 -- Regular expressions with sed (or awk)
+- Week 10 -- Sed, Awk, and other stuff
+- Week 11 -- Programming at the command line
 - Week 12 -- Linux environments (dual boot, cloud)
 - Week 13 -- Installing and securing a Linux environment
 - Week 14 -- Processes and process management
