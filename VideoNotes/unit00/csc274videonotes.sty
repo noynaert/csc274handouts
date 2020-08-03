@@ -1,4 +1,6 @@
 \ProvidesPackage{csc274videonotes}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{amssymb,amsmath}
 \usepackage{tgbonum} % TEX gyre cursor font 
 \usepackage[T1]{fontenc}
@@ -6,6 +8,14 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 
+% hyperref should be the last package
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 % \usepackage{import}
 % Load this last
 % \usepackage{subfiles} %https://www.overleaf.com/learn/latex/Multi-file_LaTeX_projects

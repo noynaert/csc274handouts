@@ -1,4 +1,5 @@
-# Unit 00 05 About the Notes
+# Unit 00_05 Videos and Notes
+## A how-to
 
 ## "Flipped Class"
 
@@ -22,6 +23,7 @@
 Please remember that the videos are not intended to be professional grade.  They are *always* a work in progress.  Lectures are not perfect, either.
 
 ## Notes pages
+
     * The notes pages are intended to insure that you are engaging with the videos
     * Pretty easy points
         * The ways to lose points on the notes
@@ -40,7 +42,6 @@ Please remember that the videos are not intended to be professional grade.  They
           * You need to think about it and figure out the answer
           * You may need to use your terminal app to look it up or see what happens
           * You may need to look it up on the web or in the textbook.pdf
-
 
 ### Steps to get points for the notes
 
