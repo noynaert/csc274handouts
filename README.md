@@ -11,15 +11,15 @@ Each unit corresponds roughly to one week of class.
 - Week 04 -- Working with text: grep, nano, and vi
 - Week 05 -- Processes and Process Management
 - Week 06 -- History and Midterm
-- Week 07 -- Basic scripts and if structures (using exists and directores as conditions) Basic script variables.
+- Week 07 -- Basic scripts and if structures (using exists and directories as conditions) Basic script variables.
 - Week 08 -- Scripting using lists, arguments, and loops
 - Week 09 -- Environmental variables and [Expansion](http://linuxcommand.org/lc3_lts0080.php)
-- Week 10 -- Grep wiuth PCRE, Sed, and Awk
+- Week 10 -- Grep with PCRE, Sed, and Awk
 - Week 11 -- Programming at the command line
-- Week 12 -- Linux environments (dual boot, cloud)
-- Week 13 -- Desktops and Distros
+- Week 12 -- Desktops and Distros
+- Week 13 -- Linux environments (dual boot, cloud)
 - Week 14 -- Installing and securing a Linux environment
--  
+  
 
 ## The MIT "Missing Semester" project:
 
