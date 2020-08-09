@@ -1,0 +1,42 @@
+{
+	"Essay_Question": {
+		"prefix": "qqq",
+		"body": [
+		  "\\question $0 ",
+		  "\\vspace{1.5cm}"
+		],
+		"description": "Generates a question and space for an exam"
+	  },
+	  "Fill_In_Question": {
+		"prefix": "qqf",
+		"body": [
+		  "\\question $1 {\\color{blue}\\fillin[][2cm]} $2"
+		],
+		"description": "Generates a question and space for an exam"
+	  },
+	  "MC_Question": {
+		"prefix": "qqm",
+		"body": [
+		  "\\question $1",
+			"\\begin{checkboxes}",
+				"\\choice $2",
+				"\\choice $3",
+				"\\choice $4",
+				"\\choice $5",
+			"\\end{checkboxes}"
+		],
+		"description": "Generates a multiple choice question for an exam"
+	  },
+	  "TF_Question": {
+		"prefix": "qqtf",
+		"body": [
+		  "\\question $1",
+			"\\begin{checkboxes}",
+				"\\choice TRUE",
+				"\\choice FALSE",
+			"\\end{checkboxes}"
+		],
+		"description": "Generates a true/false question for an exam"
+	  }
+
+}
