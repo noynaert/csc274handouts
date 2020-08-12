@@ -12,7 +12,7 @@ Use whatever you want, but I would prefer that you not use bitvise until after m
 * Get 64-bit version,  putty-64bit-0.71-installer.msi
       * (The 0.71 might change)
 
-After installing, type turing.cs.missouriwestern.edu in the Host area.
+After installing, type woz.csmp.missouriwestern.edu in the Host area.
 
 There are ways to refine Putty.  They will be shown in the accompanying video.
 

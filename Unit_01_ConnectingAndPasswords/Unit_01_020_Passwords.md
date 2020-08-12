@@ -101,7 +101,7 @@ Use common passwords
 
 * See [this list of longstanding popular passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordTop100k.txt)
 * Hot password of the era.
-  * "Donald" and "Trump" are popular now along with common variations like Drump
+  * "Donald","Joe" "Biden" and "Trump" are popular now along with common variations.
   * Any password or username used in a movie or TV show
   * *Requiring* users to use upper case, numbers, etc.
 
@@ -153,7 +153,7 @@ Now mix the two words, the numbers, the characters plus the first 3 letters of t
 * MIS27relay.,backwater
 * relay27MIS.,backwater
 
-Now you hae a password that is at least a little bit unique for each website.  But if someone sees your pattern you have a problem.
+Now you have a password that is at least a little bit unique for each website.  But if someone sees your pattern you have a problem.
 
 * divide up the 3 letters: MrelayIBackwaterS27.,
 * do the letters backwards: relaySIMBackwater27.,
@@ -174,7 +174,7 @@ Two factor authentication
 * Phone
 * Device such as a [Yubi Key](https://www.yubico.com/) or [Google Titan](https://cloud.google.com/titan-security-key) device. 
 
-Most password managers work with device.  Make sure you have a device and a backup device.
+Most password managers work with devices.  Make sure you have a device and a backup device.
 
 ## Alternatives
 
