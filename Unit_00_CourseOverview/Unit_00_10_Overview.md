@@ -2,6 +2,22 @@
 
 # Unix and Linux
 
+Unix was developed in the early 1970s.  At some times you had to pay for Unix, but at other times
+it was free.  It's complicated.
+
+MS-DOS and Windows were heavily influence by Unix.  In fact, some of the commands are identical in the Windows terminal and in Unix.
+
+Mac OS is actually a version of Unix.  
+
+There were lots of legal battles in the 1990 about who owned Unix and its source code.  BSD Unix seems to be the main form of Unix that has much importance.  BSD has more appeal in commercial applications.
+
+A strong effort is made to keep Linux and BSD synced.  
+
+| Linus Torvalds|Linux|
+---|---
+|![Linus Torvalds](images/linus.jpg)|Linus Torvalds released the first version of Linux in 1994.  Technically, he developed the Linux ***kernel***. linux is "open source software" under the GNU software license.   |
+
+
 ## Unix is an operating system like Windows.  
 
 * Operating System is the "software that controls the software"
@@ -14,7 +30,7 @@
 
 How Unix was developed | A teletype
 -----------------------|-----------
-![Thompson and Ritchie at PDP-11](/Unit_00_CourseOverview/images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg) | ![A teletype machine showing the peg-style keyboard and paper](/Unit_00_CourseOverview/images/teletype.jpg)
+![Thompson and Ritchie at PDP-11](images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg ) | ![A teletype machine showing the peg-style keyboard and paper](images/teletype.jpg)
 
 CRT terminals were not available at that time.  Teletypes were the most common interface.  The use of teletypes had a couple of implications for us today:
 
@@ -31,7 +47,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 
   ### Dumb Terminals
 
-  ![A CRT Dumb Terminal](/Unit_00_CourseOverview/images/hpDumbTerminal.jpg)
+  ![A CRT Dumb Terminal](images/hpDumbTerminal.jpg)
   
   Dumb Terminals replaced the teletype.  This was the model used on our campus until about 1990.
 
@@ -45,17 +61,23 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 
 # Unix Shell
 
-The shell is what we type commands into.  It is a program that takes input from the keyboard, passes it to the *kernel* and displays the output to the screen.  The shell is the interface between the user and the operaating system.
+The shell is what we type commands into.  It is a program that takes input from the keyboard, passes it to the *kernel* and displays the output to the screen.  The shell is the interface between the user and the operating system.
 
 Historically there have been different shells that were used.
 
 * ***sh*** was the original shell
 * ***Bourne*** added a lot of advance features.  It was licensed and a closed source program.
 * ***Bash*** The "Bourne Again SHell" is an open-source version of the Bourne shell.  It adds some features and has been optimized to run in terminal emulators.  It has provisions for color.  Bash runs on most modern Unix systems, including linux.
-
+  * ![Bash on Android](images/BashOnAndroidSmall.png)
 # Linux
 
 * Linux is a version of Unix
+* Runs on many devices
+  * Supercomputers
+  * Mainframes
+  * Desktops and Laptops
+  * Android phones and Chromebooks
+  * IoT and small devices
 * Releasted under the GNU open-source license
 * Linux is actually just the ***kernel*** or core program that is the Operating System
 * Android phones and Chromebooks use the Linux kernel
@@ -63,7 +85,7 @@ Historically there have been different shells that were used.
   * They have an entirely different shell (Interface) but they are still Linux.
     * There is an experimental way to load Bash on a Chromebook.
     * You can load bash on your Android, even without Rooting your phone
-    * ![Bash on Android](images/BashOnAndroidSmall.png)
+  
 
 ## This Semester
 
@@ -74,6 +96,7 @@ Historically there have been different shells that were used.
     * Use an old computer.
     * Dual Boot (higher risk).
     * Rapberry Pi or something similar.
+    * WSL2 under Windows 10
 
 ## Further reading (optional)
 

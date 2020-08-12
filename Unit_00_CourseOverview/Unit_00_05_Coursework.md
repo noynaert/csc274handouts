@@ -24,25 +24,7 @@ Please remember that the videos are not intended to be professional grade.  They
 
 ## Notes pages
 
-    * The notes pages are intended to insure that you are engaging with the videos
-    * Pretty easy points
-        * The ways to lose points on the notes
-            * Skip a question
-            * Give a frivolous answer
-            * Cheat
-    * Can you work together with another student? 
-        *[Yes](images/giphy.webp)
-            * As long as you *work* together
-            * Don't just copy answers from each other
-            * Discuss questions and your answers
-    * A lot of things in the notes are in the repo handouts
-        * Some are only in the handouts
-        * Some may be in both
-        * Some may not be in either (hopefully on purpose)
-          * You need to think about it and figure out the answer
-          * You may need to use your terminal app to look it up or see what happens
-          * You may need to look it up on the web or in the textbook.pdf
-
+    
 ### Steps to get points for the notes
 
 * Print them out, hopefully on campus from the "free" printers in computer labs
@@ -69,7 +51,9 @@ Please remember that the videos are not intended to be professional grade.  They
 
 ## Homework
 
+There will also be real homework.  This will typically be a set of tasks you must perform.  
+
 ## Exams and Homework
 
-* Based on *both* the Github pages plus the notes.  You should study from both.
+* Based on *both* the Github handouts plus the notes.  You should study from both.
 
