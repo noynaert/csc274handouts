@@ -1,5 +1,7 @@
 # Unit 00.10 Overview
 
+![Computer Diagram with User to Kernel](images/kernel.png)
+
 # Unix and Linux
 
 Unix was developed in the early 1970s.  At some times you had to pay for Unix, but at other times
@@ -50,7 +52,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
   ![A CRT Dumb Terminal](images/hpDumbTerminal.jpg)
   
   Dumb Terminals replaced the teletype.  This was the model used on our campus until about 1990.
-
+ 
 * No CPU.  They were just a keyboard and monitor that connected to a remote computer.
 * Still not fun to type on, but better typing than teletype
 * No cost of paper, but only 24 or 25 lines.  So parsimonious output is still important.
@@ -78,7 +80,7 @@ Historically there have been different shells that were used.
   * Desktops and Laptops
   * Android phones and Chromebooks
   * IoT and small devices
-* Releasted under the GNU open-source license
+* Released under the GNU open-source license
 * Linux is actually just the ***kernel*** or core program that is the Operating System
 * Android phones and Chromebooks use the Linux kernel
   * Therefore they are technically Linux
@@ -86,7 +88,6 @@ Historically there have been different shells that were used.
     * There is an experimental way to load Bash on a Chromebook.
     * You can load bash on your Android, even without Rooting your phone
   
-
 ## This Semester
 
 * Most of this semester we will focus on Bash.

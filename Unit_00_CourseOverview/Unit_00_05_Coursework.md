@@ -1,4 +1,5 @@
 # Unit 00_05 Videos and Notes
+
 ## A how-to
 
 ## "Flipped Class"
@@ -17,14 +18,13 @@
   * It is easier for students to keep track of where you are
   * These pages in the github repo generally correspond to PowerPoints or handouts.
     * [https://github.com/noynaert/csc274repo](https://github.com/noynaert/csc274repo)
-    * Generally 1 repo page per video
-    * Should you print them out?
+    * Generally 1 repo page per video or group of videos
+    * Should you print out these handouts?
 
 Please remember that the videos are not intended to be professional grade.  They are *always* a work in progress.  Lectures are not perfect, either.
 
 ## Notes pages
 
-    
 ### Steps to get points for the notes
 
 * Print them out, hopefully on campus from the "free" printers in computer labs
@@ -36,9 +36,9 @@ Please remember that the videos are not intended to be professional grade.  They
     * You might need to check the handouts
     * You might need to pause videos to check the handouts, look up something, or test the idea in your terminal application.
 * Make them into a single PDF file 
-  * The most prefered format is a single .pdf file from a flatbed scanner
+  * The most preferred format is a single .pdf file from a flatbed scanner
   * Second best is a single .pdf file from a "camscan" app
-  * If you have to take indivdual pictures, combine them into a single .pdf file.  
+  * If you have to take individual pictures, combine them into a single .pdf file.  
     * for the first couple of weeks you can turn in individual files.
     * We will do an exercise where we do this at the command line with imagemagic after about week 3.  After that exercise you will need to turn in a single .pdf file no matter what you use to make the individual files.  [Reference for future use](https://itsfoss.com/convert-multiple-images-pdf-ubuntu-1304/)
   * Upload the file with hand-written notes into the Canvas Assignment
@@ -55,5 +55,5 @@ There will also be real homework.  This will typically be a set of tasks you mus
 
 ## Exams and Homework
 
-* Based on *both* the Github handouts plus the notes.  You should study from both.
+* Based on the Github handouts, the notes, and the homework.  You should study from both.
 
