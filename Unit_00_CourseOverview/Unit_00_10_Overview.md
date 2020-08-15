@@ -30,7 +30,7 @@ A strong effort is made to keep Linux and BSD synced.
 
 ## Very, very brief history that still effects us now
 
-Ken Thompson and Dennis Ritchie, developers of original Unix | A teletype
+Ken Thompson and Dennis Ritchie, developers of Unix | A teletype
 -----------------------|-----------
 ![Thompson and Ritchie at PDP-11](images/1920px-Ken_Thompson_sitting_and_Dennis_Ritchie_at_PDP-11.jpg ) | ![A teletype machine showing the peg-style keyboard and paper](images/teletype.jpg)
 
