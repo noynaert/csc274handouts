@@ -47,6 +47,8 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 * 80 column width
   * 80 columns was inherited from an older technology known as [punched cards](https://upload.wikimedia.org/wikipedia/commons/f/f3/Punched_card.jpg) had 80 columns.  We typed them on [card punch machines](https://www.youtube.com/watch?v=YnnGbcM-H8c)  (I spent many hours at an IBM Model 29 keypunch when I was a student.  Being able to use a keypunch machine got me my first computer job).
 
+[Video of Tweeting from a Teletype](https://www.youtube.com/watch?v=9TGQ4pnVWSQ) They are *not* doing parsimonious output!
+
   ### Dumb Terminals
 
   ![A CRT Dumb Terminal](images/hpDumbTerminal.jpg)
