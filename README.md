@@ -1,11 +1,11 @@
 # csc274notes
-Notes for CSC 274, Linux/Bash at Missouri Western State University
+Handouts and Notes   for CSC 274, Linux/Bash at Missouri Western State University
 
 This repo contains notes used in a course that focuses on the Bash shell.  The notes are the basis of lectures in the class.
 
 Each unit corresponds roughly to one Unit of class.
 
-- Unit 00 -- Course overview
+- Unit 00 -- Syllabus
 - Unit 01 -- Getting connected and changing passwords
 - Unit 02 -- Basic commands and man pages
 - Unit 03 -- Files, Directories, and Globbing
@@ -20,9 +20,10 @@ Each unit corresponds roughly to one Unit of class.
 - Unit 12 -- Desktops and Distros
 - Unit 13 -- Linux environments (dual boot, cloud)
 - Unit 14 -- Installing and securing a Linux environment
-  - Note that we started counting with 0, so this is actually the 15th unit.  MWSU semesters are currently 14 weeks long.  Therefore we will not cover this during the semester.  I may put some resources here for you to explore after the semester.
+  
+Depending on pandemic conditions and the odd format of the class, it may be that we do not get through all 14 units.  In that case I will try to add resources for you here or in Canvas.
   
 
 ## The MIT "Missing Semester" project:
 
-The [MIT "Missing Semester" project](https://missing.csail.mit.edu/) is potentially a useful resource for this course.  If you have trouble understanding a unit, one option is to find the overlapping topics in the MIT "Missing Semester" course.
+The [MIT "Missing Semester" project](https://missing.csail.mit.edu/) is potentially a useful resource for this course.  If you have trouble understanding a unit, one option is to find the overlapping topics in the MIT "Missing Semester" course.  It also covers topics like GIT.
