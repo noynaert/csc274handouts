@@ -19,7 +19,6 @@ I suggest you note what each of the following does as you go through the videos.
 * finger
 * passwd
 * mkpasswd
-* cal
 * ping
   
 ## Keystrokes used in this lesson
@@ -158,4 +157,8 @@ $ figlet 'Hello' | cowsay -n
 $ date | figlet | cowsay -n
 ```
 
-Reminder.  Pipes will not be on the Unit 1 quiz.  But they are useful and pretty easy.
+## Other characters on the keyboard
+
+* Ctrl-C for break.  Ends most programs.  Sometimes hitting the Esc key or Ctrl-D also works
+* Up arrow goes back in the command history.  This is handy when you need to repeat or edit a command
+* Tab is used for "Tab Completion."  It attempts to fill in a command or file name.  The way most email programs try to fill in email addresses was inspired by this.
