@@ -9,7 +9,9 @@ it was free.  It's complicated.
 
 MS-DOS and Windows were heavily influence by Unix.  In fact, some of the commands are identical in the Windows terminal and in Unix.
 
-Mac OS is actually a version of Unix.  
+One of the free versions of Unix was "Berkley Standard Distribution" or ```BSD``` put out by the University of California.
+
+Mac OS is actually a version of BSD Unix.  
 
 There were lots of legal battles in the 1990 about who owned Unix and its source code.  BSD Unix seems to be the main form of Unix that has much importance.  BSD has more appeal in commercial applications.
 
@@ -43,7 +45,7 @@ CRT terminals were not available at that time.  Teletypes were the most common i
 * Parsimonious output.  
   * Don't waste paper and cause scrolling by printing anything that is not immediately useful.
   * Make provisions to get additional information on-demand (with parsimonious typing, of course)
-* Very few special characters on the keyboard.  Also, no arrows or movement commands.
+* Very few special characters on the keyboard.  Also, there were no arrows or movement commands on the keyboard.
 * 80 column width
   * 80 columns was inherited from an older technology known as [punched cards](https://upload.wikimedia.org/wikipedia/commons/f/f3/Punched_card.jpg) had 80 columns.  We typed them on [card punch machines](https://www.youtube.com/watch?v=YnnGbcM-H8c)  (I spent many hours at an IBM Model 29 keypunch when I was a student.  Being able to use a keypunch machine got me my first computer job).
 
@@ -71,7 +73,7 @@ Historically there have been different shells that were used.
 
 * ***sh*** was the original shell
 * ***Bourne*** added a lot of advance features.  It was licensed and a closed source program.
-* ***Bash*** The "Bourne Again SHell" is an open-source version of the Bourne shell.  It adds some features and has been optimized to run in terminal emulators.  It has provisions for color.  Bash runs on most modern Unix systems, including linux.
+* ***Bash*** The "Bourne Again SHell" is an open-source version of the Bourne shell.  It adds some features and has been optimized to run in terminal emulators.  It has provisions for color.  Bash runs on most modern Unix systems, including linux, Windows Subsystem for Linux, and Mac OS.
   * ![Bash on Android](images/BashOnAndroidSmall.png)
 # Linux
 

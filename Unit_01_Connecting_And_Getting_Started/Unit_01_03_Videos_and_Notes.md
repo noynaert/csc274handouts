@@ -1,4 +1,4 @@
-# Unit 00_05 Videos and Notes
+# Unit 01_03 Videos and Notes
 
 ## A how-to
 
@@ -19,18 +19,15 @@
   * These pages in the github repo generally correspond to PowerPoints or handouts.
     * [https://github.com/noynaert/csc274repo](https://github.com/noynaert/csc274repo)
     * Generally 1 repo page per video or group of videos
-    * Should you print out these handouts?
-
-Please remember that the videos are not intended to be professional grade.  They are *always* a work in progress.  Lectures are not perfect, either.
+    * Should you print out these handouts
 
 ## Notes pages
 
 ### Steps to get points for the notes
 
 * Print them out, hopefully on campus from the "free" printers in computer labs
-* The notes will be in the Canvas. A link is in the assignment.
-* There is one set of notes pages for the entire unit
-  * Individual videos and notes are organized into sections
+* Links to the notes and related videos will be in the assignment.
+* Look in the github repo to find the handouts
 * Watch the videos and fill out the notes by handwriting
     * Should generally follow the sequence of the videos
     * You might need to check the handouts
@@ -38,22 +35,9 @@ Please remember that the videos are not intended to be professional grade.  They
 * Make them into a single PDF file 
   * The most preferred format is a single .pdf file from a flatbed scanner
   * Second best is a single .pdf file from a "camscan" app
-  * If you have to take individual pictures, combine them into a single .pdf file.  
-    * for the first couple of weeks you can turn in individual files.
-    * We will do an exercise where we do this at the command line with imagemagic after about week 3.  After that exercise you will need to turn in a single .pdf file no matter what you use to make the individual files.  [Reference for future use](https://itsfoss.com/convert-multiple-images-pdf-ubuntu-1304/)
-  * Upload the file with hand-written notes into the Canvas Assignment
-
-  ### How I grade the notes
-
-  The real purpose of the notes is to help watch the videos.
-
-  I only "spot grade" a few questions and look for completeness.
-
-## Homework
-
-There will also be real homework.  This will typically be a set of tasks you must perform.  
+  * If you have  I will try to help you get sta
 
 ## Exams and Homework
 
-* Based on the Github handouts, the notes, and the homework.  You should study from both.
+* Based on the Github handouts, the notes, and the homework.  You should study from all three.
 
