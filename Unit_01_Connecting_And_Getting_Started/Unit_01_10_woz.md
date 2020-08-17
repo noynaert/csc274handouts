@@ -1,8 +1,5 @@
-# Unit 01
+# Unit 01 10 Woz
 
-## ***Connecting, Commands, Man Pages, and Passwords***
-
-Parental Warning:  Some of the cowfiles may be NSFW.  The ones I am using in examples are SFW.  If you go exploring be over 18 and be prepared for possible objectionable images.
 
 ## Choices
 
