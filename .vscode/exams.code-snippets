@@ -17,24 +17,28 @@
 	  "MC_Question": {
 		"prefix": "qqm",
 		"body": [
+		  "\\begin{samepage}",
 		  "\\question $1",
 			"\\begin{checkboxes}",
 				"\\choice $2",
 				"\\choice $3",
 				"\\choice $4",
 				"\\choice $5",
-			"\\end{checkboxes}"
+			"\\end{checkboxes}",
+		  "\\end{samepage}"	
 		],
 		"description": "Generates a multiple choice question for an exam"
 	  },
 	  "TF_Question": {
 		"prefix": "qqtf",
 		"body": [
+			"\\begin{samepage}",
 		  "\\question $1",
 			"\\begin{checkboxes}",
 				"\\choice TRUE",
 				"\\choice FALSE",
-			"\\end{checkboxes}"
+			"\\end{checkboxes}",
+			"\\end{samepage}"
 		],
 		"description": "Generates a true/false question for an exam"
 	  }
