@@ -3,7 +3,7 @@
 
 Some of these commands will be covered in the videos, and some in the assignments.
 
-I suggest you note what each of the following does as you go through the videos.  Before taking the quiz use the "man" utility to figure out what the other commands do.  (Using man will be covered in one of this unit's videos.)
+I suggest you note what each of the following does as you go through the videos.  Use the "man" utility to figure out what the other commands do.  (Using man will be covered in one of this unit's videos.)
 
 * whoami
 * exit
@@ -49,9 +49,9 @@ $ cowsay Hello
 ```
 
 * Single Quote '
-  * an apostrophy to a normal human
+  * an apostrophe to a normal human
   * may be used around single words
-  * more efficient than double quotes
+  * stronger than double quotes
   * useful when the string includes double quotes
   * **Best practice is to get in the habit of using single quotes**
 
@@ -59,13 +59,13 @@ $ cowsay Hello
 $ echo 'Hello, World'
 $ cowsay 'Hello, World'
 $ cowsay 'Hello, $USER'
-$ cowsay 'He said "Where is Dave?"'
+$ cowsay 'He said "Where is dave?"'
 ```
 
 * Double Quote "
   * just a normal quote mark to a normal human
   * may be used around single words
-  * less efficient than double quotes
+  * more lenient than double quotes, especially if $ symbols are involved.
   * useful when string includes apostrophe "Dave's not here."
   
 ```text
@@ -89,7 +89,7 @@ $ ping example.com
 
 The problem is the command runs forever.  Hit Ctrl-c to break.
 
-Now try the following while logged into turing
+Now try the following while logged into woz
 
 ```bash
 $ ping www.missouriwestern.edu
@@ -130,7 +130,7 @@ Some options start with --.  This is a new style that was in vogue for a while. 
 
 ## Pipes Interlude
 
-Pipes will not be on this quiz.  Pipes will be covered in a later unit.  
+Pipes will not be in this unit.  Pipes will be covered in a later unit.  
 However, in this unit we will introduce using them.  Hopefully they will
 not feel as odd when we get to them.
 

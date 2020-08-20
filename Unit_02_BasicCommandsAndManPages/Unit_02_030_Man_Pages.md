@@ -3,7 +3,7 @@
 In preparation for this exercise do the following command:
 
 ```bash
-wget http://turing.cs.missouriwestern.edu/moby.txt
+wget http://webservices.missouriwestern.edu/users/noynaert/moby.txt
 ```
 
 This fetches a large text file we can use to play with.
@@ -16,9 +16,9 @@ More is an old (and outdated) program for stepping through large text files one 
 $ more moby.txt
 ```
 
-Use q to quit
+* Use q to quit
 
-Less is the replacement for more.  Still uses q to quit!
+Less is the replacement for more.  Still uses the same commands, but lets you go backward in the file.
 
 ```bash
 $ man less
@@ -31,7 +31,7 @@ The first warning on the less page is that the commands are based on "vi"
 
 ### ***I suggest that you open two ssh windows.***
 
-- Start two command windows, do an ssh session to turing in each window.
+- Start two command windows, do an ssh session to woz in each window.
   - Open "man less" in one window.
   - Open "less moby.txt" in the other window.
   - Arrange the windows side by side.
@@ -101,4 +101,4 @@ You can specify section numbers
 ```bash
 $ man 1 ls
 $ man 4 random
-```
+```q

@@ -56,7 +56,7 @@ You may use "double quotes" to force the white space to be honored.
 echo "Pepperoni           Pizza"
 ```
 
-'Single quotes' work, too.  But they mean something slightly different.
+'Single quotes' work, too.  But they mean something slightly different.  We will talk about the differences later.  Basically, single quotes are "stronger" than double quotes.
 
 ```bash
 echo 'Pepperoni           Pizza'
@@ -86,11 +86,13 @@ In the following, -f is an option that requires a file name.
 cowsay -f tux "Hi"
 ```
 
-Actually, the space between the option and the argument is optional, so the following would also work.  But the space makes things more readable.
+Actually, the space between the option and the argument is optional, so the following would also work.  But the space makes things more readable.  Remember what we said about parsimonious input?
 
 ```bash
 cowsay -ftux "Hi"
 ```
+
+One word of caution is in order.  The same letter may mean entirely different flags in different commands.  The ```-f``` flag doesn't always mean "file."
 
 ## Don't worry about too many details at this point
 
@@ -104,14 +106,14 @@ cowsay -f dragon "Have a lot of fun!"
 
 ## Istalling new commands
 
-Installing some commands requires you to be an administrator on the system.  The administrators are referred to as "super users."  On the turing.cs system most students are not super users, but if you install Ubuntu on a laptop you will have super user rights.
+Installing some commands requires you to be an administrator on the system.  The administrators are referred to as "super users."  On the woz.cs system most students are not super users, but if you install Ubuntu on a laptop you will have super user rights.
 
-For now you don't need to know all of these distributions.  But you do need to know that there are different distributions.  You should know that the turing.cs system is running Ubuntu which is based on the Debian distribution.
+For now you don't need to know all of these distributions.  But you do need to know that there are different distributions.  You should know that the woz.cs system is running Ubuntu which is running Fedora which is an rpm-based system. The different distributions all worm much the same, but they will have different ways of installing software.
 
 Three main types of distributions
 * Debian Based  (.deb)
   * Debian
-  * Ubuntu, Kubuntu, etc
+  * Ubuntu, Kubuntu, Lubuntu, etc
   * Mint
   * Pop!
 * Red Hat (.rpm based)
