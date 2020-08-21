@@ -10,7 +10,7 @@ This fetches a large text file we can use to play with.
 
 ## More or Less
 
-More is an old (and outdated) program for stepping through large text files one page at a time.
+More is an old (and outdated) program for stepping through large text files one page at a time.  It also has some additional features such as highlighting search terms.
 
 ```bash
 $ more moby.txt
@@ -101,4 +101,4 @@ You can specify section numbers
 ```bash
 $ man 1 ls
 $ man 4 random
-```q
+```
