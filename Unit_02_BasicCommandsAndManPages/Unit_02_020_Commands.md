@@ -34,8 +34,6 @@ I suggest you note what each of the following does as you go through the videos.
   * old commands are often 2 or 3 letters
   * often no unneeded output.  Sometimes none
   
-  ![Teletype machine](images/teletype.jpg)
-
 ## Strings
 
   There are several ways to make strings  For right now we will only talk about three ways
