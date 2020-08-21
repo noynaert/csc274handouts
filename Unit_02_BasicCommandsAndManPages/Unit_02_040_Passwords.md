@@ -60,7 +60,7 @@ In general, if you have n bits, then the number of combinations is 2<sup>n</sup>
 
 Entropy is lack of order or predictability.  For passwords, password strength is measured in bits of entropy.
 
-![Entropy Formula](images/entropy.gif)
+![Entropy Formula](entropy.gif)
 
 Range is the number of characters in the character set
 
@@ -94,15 +94,31 @@ Current wisdom is passwords of 15 characters are excellent.
 |  60 - 127 bits  | Strong; can be good for guarding financial information                    |
 128+ bits | Very Strong; often overkill
 
+## Pass Phrases
+
+One standard piece of advice is to think of "Pass Phrases" rather than "Passwords."  This is not bad because it gives length.
+
+* A line of a song or poem
+* A story or something about you
+  * works@courtHouse
+  * $Generalstore1703
+* Something about the website
+  * ```angry14yearOlds``` might work for Reddit
+  * ```AnnoyingRelativesUCan'tUnfriend``` might work for facebook.
+
 ## How to weaken passwords
 
 Use common passwords
 
-* See [this list of longstanding popular passwords](https://www.ncsc.gov.uk/static-assets/documents/PwnedPasswordTop100k.txt)
+* See [this list of longstanding popular passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)
 * Hot password of the era.
   * "Donald","Joe" "Biden" and "Trump" are popular now along with common variations.
   * Any password or username used in a movie or TV show
   * *Requiring* users to use upper case, numbers, etc.
+
+Reuse passwords
+
+[Relevant XKCD cartoon](https://xkcd.com/792/)
 
 The dilemma:
 
@@ -160,6 +176,8 @@ Now you have a password that is at least a little bit unique for each website.  
 
 ## The real solution
 
+The real problem with passwords is password reuse.  
+
 Password managers
 
 * Either on the cloud or on your own device
@@ -171,6 +189,7 @@ Password managers
 Two factor authentication
 
 * Phone
+* Phone based 6-digit authenticator
 * Device such as a [Yubi Key](https://www.yubico.com/) or [Google Titan](https://cloud.google.com/titan-security-key) device. 
 
 Most password managers work with devices.  Make sure you have a device and a backup device.
