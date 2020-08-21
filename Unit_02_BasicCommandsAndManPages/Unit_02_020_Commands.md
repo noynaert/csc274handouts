@@ -17,9 +17,6 @@ I suggest you note what each of the following does as you go through the videos.
 * wget
 * chfn
 * finger
-* passwd
-* mkpasswd
-* ping
   
 ## Keystrokes used in this lesson
   
