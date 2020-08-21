@@ -8,15 +8,14 @@ I suggest you note what each of the following does as you go through the videos.
 * whoami
 * exit
 * echo
-* cowsay
+* cowsay/cowthink~
 * figlet
 * date
 * cal
 * finger
 * ls
 * wget
-* chfn
-* finger
+* ping
   
 ## Keystrokes used in this lesson
   
