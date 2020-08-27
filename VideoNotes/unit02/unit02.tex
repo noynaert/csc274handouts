@@ -1,7 +1,7 @@
 \documentclass[letterpaper,12pt]{exam}
 \usepackage{csc274videonotes}
 
-\newcommand{\unit}{Unit 01}
+\newcommand{\unit}{Unit 02}
 \pagestyle{headandfoot}
 \firstpageheader{CSC 274 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
 \runningheader{CSC 274 \semester}{\unit}{Page \thepage\ of \numpages}
@@ -11,19 +11,101 @@
 \usepackage{draftwatermark}
 \SetWatermarkText{CSC 274}
 \SetWatermarkScale{.7}
-\SetWatermarkColor[rgb]{0.8,0.8,0.8}
+\SetWatermarkColor[rgb]{0.9,0.9,0.9}
 
 \begin{document}
 
+\begin {questions}
 
-\section*{Unit 01\_03 --- Videos and Notes} % Unnumbered section
+\section*{\unit\_010 --- Basic Commands} % Unnumbered section
 
-\begin{questions}
-\question  
-\vspace{1.5cm}
+\begin{samepage}
+	\question What does each of the following commands do in Linux?
+	\begin{checkboxes}
+		\choice \texttt{{\huge date}}
+		\choice \texttt{{\huge cal}}
+		\choice \texttt{{\huge clear}}
+		\choice \texttt{{\huge date}}
+		\choice \texttt{{\huge pwd}} \textcolor{blue}{\textsl{Shows the Present Working Directory.}} \textcolor{gray}{(Prefilled because we have not covered directories yet)}
+		\choice \texttt{{\huge echo}}
+	\end{checkboxes}
+	\end{samepage}
+
+\question What name would your third grade teacher call "single quote marks?" 
+\vspace{1.25cm}
+
+\question What are arguments?  Do arguments always have to be put in quote marks? 
+\vspace{1.25cm}
+\question What is a flag?  What is the difference between a flag and an option? 
+
+\question What distribution is installed on woz?  Is it a \texttt{.deb} or \texttt{.rpm} type of distribution? 
+
+\section*{\unit\_020 --- More Commands} % Unnumbered section
+
+\begin{samepage}
+\question Strings must always be enclosed in either single quotes or double quotes.
+\begin{checkboxes}
+\choice TRUE
+\choice FALSE
+\end{checkboxes}
+\end{samepage}
+
+\question What is the difference between single quotes and double quotes? 
+\vspace{1.25cm}
+
+\begin{samepage}
+\question For each of the following, write "valid" in the blank if the string is a valid bash string. Write "invalid" if it is not a valid bash string. If the string is invalid, correct it.
+\begin{checkboxes}
+	\choice $\rule{2.5cm}{0.15mm}$\texttt{\Large "What's up, doc?"}
+	\choice $\rule{2.5cm}{0.15mm}$\texttt{\Large 'Who's on first?'}
+	\choice $\rule{2.5cm}{0.15mm}$\texttt{\Large ""But I do not want to go among mad people,” Alice remarked."}
+	\choice $\rule{2.5cm}{0.15mm}$\texttt{\Large '“Oh, you can’t help that,” said the Cat'}
+
+\end{checkboxes}
+\end{samepage}
+
+\begin{samepage}
+	\question Assume the variable \$USER \texttt{\$USER} is set to your login id.  What would be printed by each of the following statements? 
+\\\\
+	echo 'Greetings, \$USER'
+	\\\\
+	echo "Greetings, \$USER"
+
+\end{samepage}
+
+\question In your own words, what does a pipe do?  Give an example. 
+
+\section*{\unit\_030 --- Man Pages} % Unnumbered section
+ 
+\question In Linux, what is better, \texttt{more} or \texttt{less}?  Explain your answer. 
+\vspace{1.25cm}
+
+\question If this section is about man pages, why did I start with a discussion of more and less? 
+\vspace{1.25cm}
+
+\question What doesn't Ctrl-C work for copy in Unix shells like Bash? 
+
+\section*{\unit\_040A --- Password Mathematics} % Unnumbered section
+
+\question What is entropy?  Use your own words and explain it in terms of passwords.  Do not just copy a definition of entropy from another source. 
+\vspace{1.25cm}
+
+\question Given the formula \(Entropy = Range^{Length} \), which is more important, Range or Length?  Why?
+
+\section*{\unit\_040B --- Practical Passwords} % Unnumbered section
+
+\question Make up good passwords that are easy to remember but different for the websites www.netflix.com and www.hulu.com. 
+\vspace{1.25cm}
+
+\question What is two factor authentication?
+\vspace{1.25cm}
+
+\question What would be an example of one factor authentication?  (Not in the notes.  Think about it.) 
+\vspace{1.25cm}
+
+\question Will biometrics solve the password problem?  Explain your answer. 
+\vspace{1.25cm}
 \end{questions}
-
-
 \begin{figure}[b]\label{end}
 	\center
 	\includegraphics[width=1in]{tux}
