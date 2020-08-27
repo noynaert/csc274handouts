@@ -1,4 +1,4 @@
-# Unit 02_05, Basic Commands
+# Unit 02_010, Basic Commands
 
 Make sure you have a terminal window open.
 

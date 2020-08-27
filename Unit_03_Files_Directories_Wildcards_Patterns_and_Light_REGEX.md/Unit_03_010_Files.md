@@ -37,8 +37,6 @@ For reference on file names: [https://www.cyberciti.biz/faq/linuxunix-rules-for-
 * Hard Links
 * Symbollic Links
 
-https://www.linuxjournal.clom/content/pattern-matching-bash
-
 
 ## Going further
 
@@ -48,5 +46,5 @@ There are other file types such as sockets and named pipes.  They are beyond wha
 
 ### Non-Roman alphabets
 
-Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now it generally supports
+Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now it generally supports other alphabets
 

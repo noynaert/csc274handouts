@@ -174,7 +174,8 @@ Now you have a password that is at least a little bit unique for each website.  
 * do the letters backwards: relaySIMBackwater27.,
 * use Morse Code: relay27Backwater.,dddddDD
 
-## The real solution
+## The real solution for passwords
+### Also may work with 2F
 
 The real problem with passwords is password reuse.  
 
@@ -188,8 +189,9 @@ Password managers
 
 Two factor authentication
 
-* Phone
-* Phone based 6-digit authenticator
+* Phone/SMS
+* email
+* authenticator app or device
 * Device such as a [Yubi Key](https://www.yubico.com/) or [Google Titan](https://cloud.google.com/titan-security-key) device. 
 
 Most password managers work with devices.  Make sure you have a device and a backup device.
