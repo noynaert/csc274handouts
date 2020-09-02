@@ -91,13 +91,38 @@ For reference on file names: [https://www.cyberciti.biz/faq/linuxunix-rules-for-
 
 Links are placeholders that point to other files.  The link acts just like it is the original file, but it is actually in a different location. In practice most links are symbollic links
 
-## Going further
-
 ### Other Special file types
 
 There are other file types such as sockets and named pipes.  They are beyond what we are doing in this class.  [Here is a link to an article that briefly explores the various types.](https://www.tecmint.com/explanation-of-everything-is-a-file-and-types-of-files-in-linux/)
+
+## Commands for files
+
+* ```touch``` 
+  * Updates a file's last modified date
+  * Also often used to create an empty file
+* ```cat```
+  * Technically it is used to join two or more files into a single file.
+  * Often it is used to list the contents of a text file to the console
+* ```less``` Better than cat on modern consoles.  Also better than ```more```
+* ```head``` and ```tail```
+  * tail -f 
+  * Lists the first or last lines of a file.
+* ```cp``` 
+  * Copies a file.  
+  * Always takes two arguments.  It uses the "from to" sequence for the arguments. or "source destination"
+    * Second argument is the new file name *or* the directory where the file is to be placed
+    * If you are copying from a different directory and want to keep the same file name, use . as the directory name.  *This is very common.*
+* ```rm``` removes the file
+* ```mv``` 
+  * Technically it is used to move a file to a different directory
+  * Most of the time it is used to rename a file or directory
+* `````` 
 
 ### Non-Roman alphabets
 
 Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now it generally supports other alphabets
 
+## Editing text files
+
+* ```nano```
+* ```vi```, ```vim```
