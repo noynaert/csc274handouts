@@ -2,22 +2,61 @@
 	"Essay_Question": {
 		"prefix": "qqq",
 		"body": [
+			"\\begin{samepage}",	
 		  "\\question $0 ",
-		  "\\vspace{1.5cm}"
+			"\\vspace{15mm}",
+			"\\end{samepage}"				
 		],
 		"description": "Generates a question and space for an exam"
-	  },
+		},
+		"Essay_itemize": {
+			"prefix": "qqb",
+			"body": [
+				"\\begin{samepage}",
+				"\\question $0 ",
+					"\\begin{itemize}",
+						"\\item",
+						"\\vspace{5mm}",
+						"\\item",
+						"\\vspace{5mm}",
+						"\\item",
+						"\\vspace{5mm}",
+					"\\end{itemize}",
+					"\\end{samepage}",
+			],
+			"description": "bullet-point question"
+		},
+
+		"Essay_enumerate": {
+			"prefix": "qq3",
+			"body": [
+				"\\begin{samepage}",
+				"\\question $0 ",
+				"\\begin{enumerate}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\end{enumerate}",
+				"\\end{samepage}"		
+			],
+			"description": "numbered answer question"
+		},
 	  "Fill_In_Question": {
 		"prefix": "qqf",
 		"body": [
-		  "\\question $1 {\\color{blue}\\fillin[][2cm]} $2"
+			"\\begin{samepage}",
+			"\\question $1 {\\color{blue}\\fillin[][2cm]} $2",
+			"\\end{samepage}",
 		],
 		"description": "Generates a question and space for an exam"
 	  },
 	  "MC_Question": {
 		"prefix": "qqm",
 		"body": [
-		  "\\begin{samepage}",
+			"\\begin{samepage}",
 		  "\\question $1",
 			"\\begin{checkboxes}",
 				"\\choice $2",
@@ -25,9 +64,9 @@
 				"\\choice $4",
 				"\\choice $5",
 			"\\end{checkboxes}",
-		  "\\end{samepage}"	
+			"\\end{samepage}",
 		],
-		"description": "Generates a multiple choice question for an exam"
+		"description": "Multiple choice question for an exam"
 	  },
 	  "TF_Question": {
 		"prefix": "qqtf",
@@ -38,7 +77,7 @@
 				"\\choice TRUE",
 				"\\choice FALSE",
 			"\\end{checkboxes}",
-			"\\end{samepage}"
+			"\\begin{samepage}",
 		],
 		"description": "Generates a true/false question for an exam"
 	  }
