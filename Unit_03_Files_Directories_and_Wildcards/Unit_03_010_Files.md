@@ -124,5 +124,9 @@ Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now 
 
 ## Editing text files
 
-* ```nano```
-* ```vi```, ```vim```
+* ```nano```  Nano is a simple text editor.  It is easy but very limited in its abilities.  Most versions of Linux have it as an emergency tool for people who don't know vi or vim.
+* ```vi```, ```vim``` 
+  * These are much more powerful editors.  
+  * Unfortunately they are modal editors and have a steep learning curve.  
+  * vi is the traditional editor for Unix systems.  vim is an upgraded version that works with colors and other things that were not available on teletypes and dumb terminals.  If you have a choice, always opt for vim.
+  * vi and vim commands run throughout Linux and Unix.  For example, the controls used in ```more``` and ```less``` are actually commands from vi and vim.  
