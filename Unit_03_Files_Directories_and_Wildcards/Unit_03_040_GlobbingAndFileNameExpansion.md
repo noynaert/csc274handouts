@@ -27,3 +27,23 @@ If there is are multiple file that match, hitting the tab key twice will show yo
 ## Asterisk *
 
 Asterisk means match zero or more characters
+
+This is the most permissive, and also the most widely used wildcard character.
+
+```\*.txt``` would match any file ending in .txt
+
+## Question Marks ?
+
+The Question Mark matches one character.
+
+## Square Brackets [ ]
+
+Square Brackets give us a list of characters to pick from.
+
+```[mq]*``` would select all files starting with either an m or a q.
+
+We can also specify a range
+
+```f[0-9]*``` would select all of the files starting with f followed by a digit.
+
+```f[a-zA-Z]*``` would select all of the files starting with f that had a letter follow the f.
