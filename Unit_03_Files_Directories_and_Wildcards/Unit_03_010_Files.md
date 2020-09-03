@@ -106,8 +106,8 @@ There are other file types such as sockets and named pipes.  They are beyond wha
   * Often it is used to list the contents of a text file to the console
 * ```less``` Better than cat on modern consoles.  Also better than ```more```
 * ```head``` and ```tail```
-  * tail -f 
   * Lists the first or last lines of a file.
+* * ```tail -f``` useful for watching "live" updates to a log file
 * ```cp``` 
   * Copies a file.  
   * Always takes two arguments.  It uses the "from to" sequence for the arguments. or "source destination"
@@ -117,6 +117,7 @@ There are other file types such as sockets and named pipes.  They are beyond wha
 * ```mv``` 
   * Technically it is used to move a file to a different directory
   * Most of the time it is used to rename a file or directory
+* ```file``` Determines the file type
 
 ## Editing text files
 

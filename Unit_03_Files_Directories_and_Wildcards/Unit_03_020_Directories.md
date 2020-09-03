@@ -19,15 +19,23 @@ Recursive operations are often indicated by an ```-r``` flag.  Sometimes it is `
 
 When you use ls on a directory name, it automatically lists the contents of the directory (technically not fully recursive).  To get the names of directories use ```ls -d```
 
+## Dot and Double Dots
+
+* Folders do not know their own names.
+  * . refers to the current directory.
+* Folders do not know the names of their parent folders.
+  * .. refers to the parent directory
+
 ## Directory commands
 
-* pwd
-* cd
-  * cd ..
-  * cd .  (Why is this a rather pointless thing to do?)
-* mkdir (md on MS-DOS and Windows)
-* rmdir (rm on MS-DOS and Windows)
-* rm -r  Really a file command, but when you add the -r it goes "recursive" and works on directories
+* ```pwd```
+* ```cd```
+  * ``cd ..``
+  * ``cd .``  (Why is this a rather pointless thing to do?)
+* ```mkdir``` (md on MS-DOS and Windows)
+* ```rmdir``` (rm on MS-DOS and Windows)
+* ```rm -r```  Really a file command, but when you add the -r it goes "recursive" and works on directories
+* ```tar```
 
 ## Paths
 
