@@ -70,6 +70,7 @@ For reference on file names: [https://www.cyberciti.biz/faq/linuxunix-rules-for-
 * Blanks are allowed, but do not use them if you can help it.  Also avoid special characters like & and |.
 * **File names that start with a period are *hidden* files.** You probably have a lot of hidden files in your root directory.  
   * ```ls -a``` and ```ls -al```
+* Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now it generally supports other alphabets Unicode as well as ASCII.  But it can be award to type them if your keyboard is not set up for a language that includes non-ASCII characters.
 * Two special file names (actually, directory names)
   * . "dot" the current directory
   * .. "double dot" the parent directory
@@ -116,10 +117,6 @@ There are other file types such as sockets and named pipes.  They are beyond wha
 * ```mv``` 
   * Technically it is used to move a file to a different directory
   * Most of the time it is used to rename a file or directory
-
-### Non-Roman alphabets
-
-Unix was written using ASCII.  Linux was adapted to handle extended ASCII.  Now it generally supports other alphabets
 
 ## Editing text files
 
