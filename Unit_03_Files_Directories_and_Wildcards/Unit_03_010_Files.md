@@ -116,7 +116,6 @@ There are other file types such as sockets and named pipes.  They are beyond wha
 * ```mv``` 
   * Technically it is used to move a file to a different directory
   * Most of the time it is used to rename a file or directory
-* `````` 
 
 ### Non-Roman alphabets
 
