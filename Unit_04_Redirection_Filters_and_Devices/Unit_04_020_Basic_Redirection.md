@@ -41,4 +41,38 @@ For example, the command ```find / -name moby.txt``` generates so many errors it
 
 There are variations here.  For example, ``find / -name moby.txt 2> errors.txt > results.txt``` sends stderr to errors.txt and sends stdout to results.txt.
 
+### Redirect both stdout and stderr to the same file
 
+The old way to do this was like the following:
+
+```bash
+ls > results.txt 2>&1
+```
+
+The above method looks backwards and unintuitive to a lot of people (including me).  I would like to write it as something like ```ls > 2>&1 > results.txt```
+
+Also, the ```2>&1``` syntax is not easy to remember.
+
+The new way is to use the following.  I recommend it, although there are a few wierd cases where it does not work.  
+
+```bash
+ls &> results.txt
+```
+
+## Appending output
+
+If you use a single ```>``` any existing data in the file is erased.  If you want to *append* output to an existing file, use ```>>```
+
+## Redirecting Input
+
+As you might guess, ```<``` is used to  send a file to a command.  As you might not guess, the input file is the last thing on the line.
+
+```bash
+cowsay < stuff.txt
+```
+
+The input comes after the output, which is opposite of the normal unix "fromt to" format.
+
+```bash
+cowsay > moo.txt < stuff.txt
+```

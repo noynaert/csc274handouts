@@ -1,7 +1,6 @@
 # Unit 03  Files
 
-## A couple of commands we will use a lot in this unit
-
+## A couple of commands we will use a lot in this 
 ### ```ls```
 
 * ```ls``` is going to be our main command for this page.

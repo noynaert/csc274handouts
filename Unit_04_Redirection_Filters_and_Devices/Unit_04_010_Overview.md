@@ -16,8 +16,7 @@ My personal opinion is that Unit Record Processing had a lot of impacts on Unix.
 cat students.txt | sort -d  | pr -n | lp -d OfficePrinter
 ```
 
-## Strategy in this unit
-
+## Strategy in this 
 * Basic redirection
 * Some common filters
 * More redirection

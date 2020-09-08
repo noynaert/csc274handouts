@@ -6,3 +6,5 @@
 
 ## $() operations
 
+## HERE operations and HERE documents
+
