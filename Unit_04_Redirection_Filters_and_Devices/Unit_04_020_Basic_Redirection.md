@@ -29,11 +29,24 @@ Example:
    * Cowsay takes input from stdin and sends the results to stdout
    * The command ```date | cowsay``` has the date command redirect its stdout to the stdin of cowsay
 
-### Redirect output
+### Redirect stdout
 
 The > symbol sends stdout to a file instead of the console.
 
 * ```date > now.txt``` sends the stdout from the date command into a file called now.txt.
+
+* Redirection works *right* to *left*
+* If the file exists, it is erased
+* /dev/stdout is the first device sent to the terminal, so we could do the following
+* ```date 1> now.txt```
+
+#### Using ```cat``` to create files
+
+The ```cat``` command reads a file and prints it to the screen.  But cat can be used to create a file when you are too lazy to start an editor.  Just be sure to remember that ^d at the start of a line is the flag for EndOfFile (or EOF)
+
+
+
+### Redirect stderr 
 
 The 2> symbol(s) directs stderr to a file.
 
@@ -41,17 +54,25 @@ For example, the command ```find / -name moby.txt``` generates so many errors it
 
 There are variations here.  For example, ``find / -name moby.txt 2> errors.txt > results.txt``` sends stderr to errors.txt and sends stdout to results.txt.
 
+#### Another way to send data to stdout that is rarely used
+
+```bash
+cowsay -f tux "I am Tux." 1> tux.txt
+```
+
 ### Redirect both stdout and stderr to the same file
 
 The old way to do this was like the following:
 
 ```bash
-ls > results.txt 2>&1
+find / -name moby.txt > results.txt 2>&1
 ```
 
-The above method looks backwards and unintuitive to a lot of people (including me).  I would like to write it as something like ```ls > 2>&1 > results.txt```
+The above method looks backwards and unintuitive to a lot of people (including me).  I would like to write it as something like ```ls> results.txt  2>&1 ```
 
-Also, the ```2>&1``` syntax is not easy to remember.
+The problem is that > works from right to left., which also looks backward unless you remember that it works right to left.
+
+Also, the ```2>&1``` syntax is not easy to remember. But it is only in Bash as of now.
 
 The new way is to use the following.  I recommend it, although there are a few wierd cases where it does not work.  
 
