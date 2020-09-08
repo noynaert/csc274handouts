@@ -19,5 +19,6 @@ cat students.txt | sort -d  | pr -n | lp -d OfficePrinter
 ## Strategy in this 
 * Basic redirection
 * Some common filters
+  * Some Regex (Regular Expressions)
 * More redirection
 
