@@ -38,7 +38,33 @@ clear;sort -t ':' -k2 data/real/mwsuLacross.csv
 
 ## ```grep```
 
+### Flags to know
+* ```-i```
+* ```-w```
+* ```-c```
+* ```-n```
+* ```-B```
+* ```-C```
+* ```-e```
+* Working with multiple files
+  * ```-r```
+  * ```-l```
+  * ```-L```
+
+Examples
+
+```bash
+grep  "some.*" /usr/share/dict/words
+grep  "some.*" /usr/share/dict/words | less
+grep -we "some.*" /usr/share/dict/words | less
+grep -we "some.*" /usr/share/dict/words | less
+grep -wce "some.*" /usr/share/dict/words 
+grep -wrce "some.*" /usr/share/dict/
+```
+
 ## ```egrep```
+
+Same as grep -e
 
 ## ```tr```
 

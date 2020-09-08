@@ -44,6 +44,8 @@ echo $RANDOM > mystery.txt
 
 ### ```yes```
 
+### ```history```
+
 ## File that is useful
 
-/usr/share/dict/words
+* /usr/share/dict/words
