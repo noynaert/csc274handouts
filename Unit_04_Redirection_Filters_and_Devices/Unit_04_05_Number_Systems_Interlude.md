@@ -1,4 +1,4 @@
-#Unit_04_025_IO_Devices
+#Unit_04_005 Number Systems Interlude
 
 ## Some background on the nature of files and I/O devices
 
@@ -116,48 +116,29 @@ So, 89AB₁₆ would be equal to 35163₁₀
  15|17|F|1111
  16|20|10|10000
  
+## ASCII Codes
 
+Teletypes use 7-bit bytes.
 
+2⁷ is 128.  If we start counting at 0, this allows values from 0 through 127.
 
-## Some Devices for stdout or stderr sinks
+## [ASCII Table](http://www.asciitable.com/)
 
-Some devices are oriented to being sources for stdin or sinks for stdout.  There are also some commands intended to be used with pipes
+Note that in the linked table, they do not bother to represent binary.  They don't need to because they have both octal and hex there.  Octal and Hex are both shorthand for Binary.
 
-A good source for those who want to dig a little deeper is [https://unixbhaskar.wordpress.com/2010/09/15/exploring-devrandom-vs-devurandom-and-devzero-vs-devnull/](https://unixbhaskar.wordpress.com/2010/09/15/exploring-devrandom-vs-devurandom-and-devzero-vs-devnull/)
+### ASCII CODES TO KNOW, but using 8 bits
 
-### ```/dev/null```
+**Know the first three columns**
 
-### ```/dev/zero```
+Character|Decimal|Hex|Bit Pattern
+:---:|:---:|:---:|:---:
+Null or \0|0|00|0000 0000
+CR or \n|13|D|0000 1101
+space bar or [= =]|32|20|0010 0000
+'0' (zero)|48|30|0011 0000
+'@'|64|40|0100 0000
+'A'|65|41|0100 0001
+'a'|97|61|0110 0001
+'~'|126|7E|0111 1110
+&amp;nbsp;|255|FF|1111 1111
 
-### ```/dev/random``` and  ```/dev/urandom```
-
-* /dev/random produces cryptographically robust random integer values.  
-  * It draws from an "entropy pool" of system noise.  
-  * If too many numbers are generated it can run out and will block.
-  * More secure.  Best for protecting resources and cryptography
-* /dev/urandom produces not quite as random variables, 
-  * Will not block
-  * Best for games or things that require a lot of random numbers
-  * Probably secure for most cryptographic operations, but this is not certain.
-
-#### Another alternative, the ```$RANDOM``` variable
-
-It is not very random.  Probably good enough for wumpus-level games.
-
-```bash
-echo $RANDOM
-cowsay $RANDOM
-echo $RANDOM > mystery.txt
-
-
-## Commands for piping or io
-
-### ```echo```
-
-### ```cat```
-
-### ```yes```
-
-## File that is useful
-
-/usr/share/dict/words
