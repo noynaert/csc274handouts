@@ -76,3 +76,30 @@ The input comes after the output, which is opposite of the normal unix "fromt to
 ```bash
 cowsay > moo.txt < stuff.txt
 ```
+
+## Things that are not redirection, but kind of feel like it
+
+### Line continuation
+
+The ```\``` key by itself means the command continues on the next line
+
+### Chaining
+
+Some of the chaining commands feel like piping.  But they are not.  The output from one is not redirected to the next command in the chain
+
+* ```;```
+  * allows 2 commands on the same line
+* ```&&```  
+  * Be careful not to use a single &, at least in this chapter
+  * && means only execute the second command if the first succeeds
+* ```||```  
+  * || is a "logical OR"  
+  * This is kind of the opposite of &&
+  * || means only execute the second command if the first command *fails*  It gives you a fallback option.
+  ```
+        ls *.xyz || echo 'No .xyz files were found'
+
+Yes, you can combine chaining and pipes.
+
+
+More for those who want to go deeper: [10 useful chaining operators](https://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/)
