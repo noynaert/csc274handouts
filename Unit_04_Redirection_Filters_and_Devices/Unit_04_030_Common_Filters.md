@@ -10,7 +10,9 @@ ls
 ls -l
 ```
 
-## Notes on this unit
+## Notes on this handout
+
+Heavy reliance on man pages
 
 Most Unix commands can either be run from either stdin or from an argument.  So the follwoing two commands are the same:
 
