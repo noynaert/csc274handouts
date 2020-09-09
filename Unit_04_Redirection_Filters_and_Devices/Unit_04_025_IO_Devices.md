@@ -1,6 +1,4 @@
-#Unit_04_025_IO_Devices
-
-## Some background on the nature of files and I/O devices
+# Unit_04_025_IO_Devices
 
 * ```hexdump -C <filename>```
 
