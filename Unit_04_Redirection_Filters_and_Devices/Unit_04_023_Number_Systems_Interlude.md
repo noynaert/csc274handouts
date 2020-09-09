@@ -32,7 +32,7 @@ There are 8 digits, 0 through 7.  Note that in Octal we do not have a symbol for
 
 The octal number 7654₈ could be represented as
 
-|4 | 3 | 2 | 1 |
+|7 | 6 | 5 | 4 |
 |:---:|:---:|:---:|:---:|
 |8³ | 8² | 8¹ | 8⁰ |
 |Five hundred and twelves|Sixty fours|Eights|Ones|
@@ -40,12 +40,12 @@ The octal number 7654₈ could be represented as
 
 ```
 7 * 512 = 3584
-6 *  64 =  284
+6 *  64 =  384
 5 *   8 =   40
 4 *   1 =    4
 ```
 
-So, 7654₈ would be equal to 3912₁₀
+So, 7654₈ would be equal to 4012₁₀
 
 #### Binary or Base 2
 
@@ -66,19 +66,19 @@ The binary number 1010₂ could be represented as
 1 * 1 = 1
 ```
 
-So, 1010₂ would be equal to 11₁₀ or B₁₆
+So, 1011₂ would be equal to 11₁₀ or B₁₆
 
 
 #### Hexadecimal or hex or Base 16
 
-There are 6 digits, 0 through F. (0,1,2,3,4,5,6,7,8,9,A,B,C,D,F)  Note that in hex we do not have a symbol for the concept of 16.  We use 10₁₆, which is 1 group of 16 plus 0.  
+There are 16 digits, 0 through F. (0,1,2,3,4,5,6,7,8,9,A,B,C,D,F)  Note that in hex we do not have a symbol for the concept of 16.  We use 10₁₆, which is 1 group of 16 plus 0.  
 
-The octal number 89AB₈ could be represented as
+The hexadecimal number 89AB₁₆ could be represented as
 
 |8 | 9 | A | B |
 |:---:|:---:|:---:|:---:|
 |16³ | 16² | 16¹ | 16⁰ |
-|Four thousand ninety sixes|Sixteens|Ones|
+|Four thousand ninety sixes|Two hundred fifty sixs | Sixteens|Ones|
 |position|position|position|position|
 
 ```
@@ -98,14 +98,14 @@ So, 89AB₁₆ would be equal to 35163₁₀
 
  Decimal|Octal|Hex|Binary
  :---:|:---:|:---:|:---:
- 0|0|0|0
- 1|1|1|1
- 2|2|2|10
- 3|3|3|11
- 4|4|4|100
- 5|5|5|101
- 6|6|6|110
- 7|7|7|111
+ 0|0|0|0000
+ 1|1|1|0001
+ 2|2|2|0010
+ 3|3|3|0011
+ 4|4|4|0100
+ 5|5|5|0101
+ 6|6|6|0110
+ 7|7|7|0111
  8|10|8|1000
  9|11|9|1001
  10|12|A|1010
