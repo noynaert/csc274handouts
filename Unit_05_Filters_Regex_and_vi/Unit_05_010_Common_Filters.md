@@ -38,13 +38,6 @@ we get into scripting we will often need to use pipes.
 
 If we always use only ASCII codes, then ```wc -c``` and ```wc -m``` should give the same results.  However, they do not if you use unicode.  (Run Unit_04_23 through wc with both -c and -m)
 
-## ```cut```
-
-```bash
-cut -d ':' -f 2 data/real/mwsuLacross.csv
-cut -d ':' -f 2,4 data/real/mwsuLacross.csv
-```
-
 # ```fold```
 
 ```bash
@@ -52,30 +45,70 @@ fold -w 20 data/real/mwsuLacross.csv
 fold -sw 20 data/real/mwsuLacross.csv
 ```
 
-## ```sort```
+
+## ```cut```
 
 ```bash
-sort mwsuLacross.csv
-sort -n mwsuLacross.csv
-clear;sort -t ':' -k2 data/real/mwsuLacross.csv
+cut -d ':' -f 2 data/real/mwsuLacross.csv
+cut -d ':' -f 2,4 data/real/mwsuLacross.csv
+cat /etc/passwd | cut -d: -f5
+cat /etc/passwd | cut -d: -f1, 5
 ```
 
 ## ```grep```
 
-We are doing only simple patterns this week
+We are doing only basic patterns for now
 
 ### Flags to know
-* ```-i```
-* ```-w```
-* ```-c```
-* ```-n```
-* ```-B```
-* ```-C```
-* ```-e```
+* ```-i``` Ignore case
+* ```-w``` Whole Words only
+* ```-c``` Count only
+* ```-n``` Line Numbers
+* ```-B``` Before
+* ```-A``` After
+* ```-C``` Context
+* ```-e``` "Extended"
+* ```-v``` Invert selection
+ 
+  
 * Working with multiple files
-  * ```-r```
-  * ```-l```
-  * ```-L```
+  * ```-r``` Recursive
+  * ```-l``` Files with matches
+  * ```-L``` Files without match
+
+Forms of regular expressions
+
+* BRE -- Basic Regular Expressions
+* ERE -- Extended Regular Expressions
+* PCRE -- Perl Regular Expressions (also Python and Java, but it doesn't play nicely with Java syntax)
+
+See the man page and search for "Character Classes and Bracket Expressions" for more information.
+
+* Letters, digits, and some special characters match themselves
+* Bracket [ ] expressions
+* ^ start of line
+* $ end of line
+* Character Classes to know:
+  * [:alnum:]
+  * [:alpha:]
+  * [:cntrl:]
+  * [:digit:]
+  * [:graph:]
+  * [:lower:]
+  * [:print:]
+  * [:punct:]
+  * [:space:]
+  * [:upper:]
+  * [:xdigit:]
+* Repetitions
+  *  ? The preceding item is optional and matched at most once.
+  *  * The preceding item will be matched zero or more times.
+  *  +      The preceding item will be matched one or more times.
+  *  {n}    The preceding item is matched exactly n times.
+  *  {n,}   The preceding item is matched n or more times.
+  *  {,m}   The preceding item is matched at most m times.  This  is  a  GNU extension.
+  *  {n,m}  The  preceding  item  is  matched at least n times, but not more than m times.
+
 
 Examples
 
@@ -93,6 +126,22 @@ grep -rl 'Mark Twain' data
 ## ```egrep```
 
 Same as grep -e
+
+## ```sort```
+
+```bash
+sort mwsuLacross.csv
+sort -n mwsuLacross.csv
+clear;sort -t ':' -k2 data/real/mwsuLacross.csv
+```
+
+* ```-n``` numeric
+* ```-f``` ignore case
+* ```-R``` random
+* ```-r``` reverse the comparison (take the compliment)
+* ```-k``` key (KEYDEF simple form is just the field number)
+* ```-t``` field separator (use with -k if the field separator is not whitespace)
+
 
 ## ```tr```
 
@@ -134,3 +183,10 @@ Good lesson at [https://www.digitalocean.com/community/tutorials/the-basics-of-u
 
 [TutorialsPoint](https://www.tutorialspoint.com/sed/sed_workflow.htm) has a tutorial that shows what goes on internally.  It is really good if you become a heavy user and need to understand behind the scenes.
 
+## ```awk```
+
+```awk``` is another very useful command line filter.  It is similar to SED and tr.  But AWK is really oriented to manipulating data.  It also lays the groundwork for some advanced regular expression processing (including in Python).  
+
+This is a good video on [Gary Explains, EVERYONE Nees to Learn a Little Bit of AWK!](https://youtu.be/jJ02kEETw70).  You only need to watch up to the 6:00 mark when the add starts. That is also where the commercial starts. The material after that is excellent, but goes beyond the survey-nature of this course.  Also, we will be doing some of the material after the commercial later in the class. I will probably link to the end material there.
+
+To some extent some awk actions can be done in R, but awk still has an important role.
