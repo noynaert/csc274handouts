@@ -57,7 +57,13 @@ cat /etc/passwd | cut -d: -f1, 5
 
 ## ```grep```
 
-We are doing only basic patterns for now
+We are doing only basic patterns for now  
+
+Grep uses "regular expressions."
+
+RE's are scary at first.  The key is to start small and easy
+
+* In a regular expression, each character and digit matches itself.
 
 ### Flags to know
 * ```-i``` Ignore case
