@@ -55,6 +55,19 @@ cat /etc/passwd | cut -d: -f5
 cat /etc/passwd | cut -d: -f1, 5
 ```
 
+## ```tr```
+
+* Very simple translator for streams
+* I suggest putting set1 and set2 in single quotes
+
+```bash
+tr 'AEIOU' 'aeiou' < data/real/mwsuLacross.csv
+tr 'A-Z' 'a-z' < data/real/mwsuLacross.csv
+tr '[:upper:]' '[:lower:]' < data/real/mwsuLacross.csv
+tr '[:digit:]' '+' < data/real/mwsuLacross.csv
+tr ':' '|' < data/real/mwsuLacross.csv
+```
+ 
 ## ```grep```
 
 Grep uses "regular expressions."
@@ -148,19 +161,6 @@ clear;sort -t ':' -k2 data/real/mwsuLacross.csv
 * ```-k``` key (KEYDEF simple form is just the field number)
 * ```-t``` field separator (use with -k if the field separator is not whitespace)
 
-
-## ```tr```
-
-* Very simple translator for streams
-* I suggest putting set1 and set2 in single quotes
-
-```bash
-tr 'AEIOU' 'aeiou' < data/real/mwsuLacross.csv
-tr 'A-Z' 'a-z' < data/real/mwsuLacross.csv
-tr '[:upper:]' '[:lower:]' < data/real/mwsuLacross.csv
-tr '[:digit:]' '+' < data/real/mwsuLacross.csv
-tr ':' '|' < data/real/mwsuLacross.csv
-```
 
 ## ```sed```
 
