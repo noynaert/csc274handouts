@@ -92,28 +92,29 @@ See the man page and search for "Character Classes and Bracket Expressions" for 
 
 * Letters, digits, and some special characters match themselves
 * Bracket [ ] expressions
+* ```.``` any single character
 * ^ start of line
 * $ end of line
 * Character Classes to know:
-  * [:alnum:]
-  * [:alpha:]
-  * [:cntrl:]
-  * [:digit:]
-  * [:graph:]
-  * [:lower:]
-  * [:print:]
-  * [:punct:]
-  * [:space:]
-  * [:upper:]
-  * [:xdigit:]
+  * [[:alnum:]] or \w    \W is anything that is not alnum
+  * [[:alpha:]]
+  * [[:cntrl:]]
+  * [[:digit:]]
+  * [[:graph:]]
+  * [[:lower:]]
+  * [[:print:]]
+  * [[:punct:]]
+  * [[:space:]]
+  * [[:upper:]]
+  * [[:xdigit:]]
 * Repetitions
-  *  ? The preceding item is optional and matched at most once.
-  *  * The preceding item will be matched zero or more times.
-  *  +      The preceding item will be matched one or more times.
-  *  {n}    The preceding item is matched exactly n times.
-  *  {n,}   The preceding item is matched n or more times.
-  *  {,m}   The preceding item is matched at most m times.  This  is  a  GNU extension.
-  *  {n,m}  The  preceding  item  is  matched at least n times, but not more than m times.
+  * ```*``` Zero or more of the previous character
+  * ```+``` Match one or more of the previous character
+  *  ```?``` The preceding item is optional and matched at most once.
+  *  ```{n}```    The preceding item is matched exactly n times.
+  *  ```{n,}```   The preceding item is matched n or more times.
+  *  ```{,m}```   The preceding item is matched at most m times.  This  is  a  GNU extension.
+  *  ```{n,m}```  The  preceding  item  is  matched at least n times, but not more than m times.
 
 
 Examples
