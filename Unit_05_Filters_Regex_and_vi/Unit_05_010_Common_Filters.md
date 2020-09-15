@@ -109,7 +109,6 @@ See the man page and search for "Character Classes and Bracket Expressions" for 
   * [[:xdigit:]]
 * Repetitions
   * ```*``` Zero or more of the previous character
-  * ```+``` Match one or more of the previous character
   *  ```?``` The preceding item is optional and matched at most once.
   *  ```{n}```    The preceding item is matched exactly n times.
   *  ```{n,}```   The preceding item is matched n or more times.
