@@ -38,7 +38,7 @@ we get into scripting we will often need to use pipes.
 
 If we always use only ASCII codes, then ```wc -c``` and ```wc -m``` should give the same results.  However, they do not if you use unicode.  (Run Unit_04_23 through wc with both -c and -m)
 
-# ```fold```
+## ```fold```
 
 ```bash
 fold -w 20 data/real/mwsuLacross.csv
