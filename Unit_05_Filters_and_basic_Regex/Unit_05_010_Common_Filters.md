@@ -5,7 +5,7 @@ check out the folder /var/www/html/data.  What is the /var folder for?
 Create a symbolic link to /var/www/html/data
 
 ```
-ln -s  /var/www/html/data/fake data
+ln -s  /var/www/html/data data
 ls
 ls -l
 ```
