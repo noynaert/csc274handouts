@@ -37,11 +37,23 @@ There are several reasons for this:
 
 ## Connecting
 
+### SSH
+
+SSH is a *protocol* for how to connect to a computer.  It is a set of guidelines about how a local computer can open a console on another computer.  
+
+There are several programs that implement the ssh protocol.  In the background they use the protocol.  They allow the human at the keyboard connect to use the connection between computers.  Examples include the following:
+
+* Putty
+* Bitvise
+* ssh (this is a command that may be used on Windows 10 system, Linux, and Mac.  The program also uses the SSH protocol in the background.
+
+### Actually connecting
+
 The way you connect will depend largely on your operating system.
 
-* Mac and Linux:  You should be able to use SSH.  See the SSH page.
+* Mac and Linux:  You should be able to use the ssh command.  See the page on ssh.
 * Windows: See the page on Putty.  I recommend that Windows users start with a program called "Putty."  If you have a late version of Windows 10 with WSL2 installed you may also be able to use ssh directly from a command prompt.  But if you are already kind of lost I suggest you start with Putty.
-
+* Bitvise:  This is probably a better option for Windows users than Putty.
 
 ### Login Id and password
 
