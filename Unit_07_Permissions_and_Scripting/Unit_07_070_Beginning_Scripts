@@ -14,6 +14,11 @@ In unix, to execute a program or script, one of the two following things must be
 * Just a text file with commands
 * Current shell is assumed to be the language
 
+```bash
+figlet "Welcome $USER"
+cowsay $(fortune)
+```
+
 ### ```which```
 
 ### ShaBang
