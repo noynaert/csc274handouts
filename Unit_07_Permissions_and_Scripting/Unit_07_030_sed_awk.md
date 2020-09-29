@@ -9,6 +9,8 @@
 
 Sed is a full language, but it is often used at the command line.  In my experience, the two most common things to do with it are to do global search and replace or to delete lines.
 
+The sed syntax shows up in a lot of other places.
+
 The BSD and Linux versions of sed are a little different.  
 
 * A big difference: the BSD version actually changes the file.  
