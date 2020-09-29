@@ -1,0 +1,14 @@
+How now brown cow.
+total 44
+drwxrwxr-x  2 noynaert noynaert 4096 Sep 29 00:47 .
+drwxrwxr-x 18 noynaert noynaert 4096 Sep 28 23:04 ..
+-rw-rw-r--  1 noynaert noynaert  212 Sep 29 00:03 evenOrOdd.py
+-rw-rw-r--  1 noynaert noynaert   19 Sep 29 00:47 record.txt
+-rw-rw-r--  1 noynaert noynaert  416 Sep 28 21:11 Unit_07_010_Overview.md
+-rw-rw-r--  1 noynaert noynaert 2992 Sep 29 00:10 Unit_07_020_vi.md
+-rw-rw-r--  1 noynaert noynaert 2377 Sep 28 20:33 Unit_07_030_sed_awk.md
+-rw-rw-r--  1 noynaert noynaert  357 Sep 29 00:46 Unit_07_040_More_Redirection.md
+-rw-rw-r--  1 noynaert noynaert   24 Sep 28 20:33 Unit_07_050_Path.md
+-rw-rw-r--  1 noynaert noynaert   45 Sep 28 23:05 Unit_07_060_Permissions.md
+-rw-rw-r--  1 noynaert noynaert    0 Sep 28 20:33 Unit_07_070_Beginning_Scripts
+-rw-rw-r--  1 noynaert noynaert   68 Sep 29 00:08 .vimrc
