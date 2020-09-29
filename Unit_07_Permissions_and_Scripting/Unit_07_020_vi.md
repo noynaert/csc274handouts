@@ -1,12 +1,12 @@
 # Unit 07.020 vi
 
-So far we have used ```nano``` and ```cut``` to create text files.
+So far we have used ```nano``` and ```cat``` to create text files.
 
 Nano is good for quick editing of short and simple text files, but it fails as an editor for programming.
 
 ## Practical issues of text editing
 
-Teletype machines did not have "verticle scrolling." Editing text files (including programs) on teletype machines was forced to use "line editors." We put up with it because it was still better than punched cards
+Teletype machines did not have "vertical scrolling." Editing text files (including programs) on teletype machines was forced to use "line editors." We put up with it because it was still better than punched cards
 
 Dumb terminals allowed us to move the cursor up and down.  Line editors persisted for a while.
 
