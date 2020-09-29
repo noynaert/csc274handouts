@@ -29,6 +29,6 @@ Good lesson at [https://www.digitalocean.com/community/tutorials/the-basics-of-u
 
 ```awk``` is another very useful command line filter.  It is similar to SED and tr.  But AWK is really oriented to manipulating data.  It also lays the groundwork for some advanced regular expression processing (including in Python).  
 
-This is a good video on [Gary Explains, EVERYONE Needs to Learn a Little Bit of AWK!](https://youtu.be/jJ02kEETw70).  You only need to watch up to the 6:00 mark when the add starts. That is also where the commercial starts. The material after that is excellent, but goes beyond the survey-nature of this course.  Also, we will be doing some of the material after the commercial later in the class. I will probably link to the end material there.
+This is a good video on [Gary Explains, EVERYONE Needs to Learn a Little Bit of AWK!](https://youtu.be/jJ02kEETw70).  You only need to watch up to the 6:00 mark when the ad starts. That is also where the commercial starts. The material after that is excellent, but goes beyond the survey-nature of this course.  Also, we will be doing some of the material after the commercial later in the class. I will probably link to the end material there.
 
 To some extent some awk actions can be done in R, but awk still has an important role.
