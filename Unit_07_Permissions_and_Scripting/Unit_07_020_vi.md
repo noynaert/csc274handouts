@@ -94,3 +94,8 @@ Hidden files that end in "rc" are usually configuration files.
 :set tabstop=4
 :set autoindent
 ```
+
+## Other factoids about vim
+
+* There are gui versions of VIM.  They allow the use of a mouse and have easier copy/paste
+* Most IDEs and programming editors have some type of "vim mode."  It is a very productive editor for those who know it well.
