@@ -1,14 +1,6 @@
 # Unit 07 060 File and Directory Permissions
 
-```bash
-ls -l evenOrOdd.py
-```
-Result:
-
-```text
-   -rw-rw-r-- 1 noynaert noynaert  212 Sep 29 00:03 evenOrOdd.py
-```
-The critical part for this page is **rw-rw-r--**
+The  ```rw-rw-r--``` is the part we are concerned with in this page
 
 command|listing
 ---|---
