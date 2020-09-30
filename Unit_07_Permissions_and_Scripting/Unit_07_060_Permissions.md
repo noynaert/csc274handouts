@@ -10,6 +10,14 @@ Result:
 ```
 The critical part for this page is **rw-rw-r--**
 
+command|listing
+---|---
+ls -l whale.txt|-```rw-rw-r--```. 1 abyron abyron 122 Sep 10 14:44 whale.txt
+ls -dl /var/www/html/data/docs | d```rwxrwxr-x```. 2 noynaert noynaert 4096 Sep 24 12:29 /var/www/html/data/docs
+ls -l /var/www/html/data/docs/moby.txt | -```rw-rw-r--```. 1 noynaert noynaert 1193347 Sep 14 20:42 /var/www/html/data/docs/moby.txt
+ls -ld /home/abyron | d```rwx------```. 5 abyron abyron 4096 Sep 30 02:14 /home/abyron
+ls -l /etc/passwd | -rw-r--r--. 1 root root 5031 Sep  3 11:48 /etc/passwd
+
 This is three groups of 3 characters.
 
 * Each triplet of 3 is for Read, Write, Execute
