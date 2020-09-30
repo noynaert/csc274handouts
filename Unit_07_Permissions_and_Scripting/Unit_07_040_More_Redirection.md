@@ -16,17 +16,6 @@ Sends output to two places:
 
 Good for documenting what you are doing on the system
 
-
-## $() operations
-
-Allows you to use a command within another command
-
-You can put a system command in the () and it will execute.
-
-```bash
-    cowsay $(ls -a)
-```
-
 ## HERE operations and HERE documents
 
 Used for multi-line input
@@ -38,3 +27,13 @@ Then there is a multi-line input
 End the input by putting the ID at the beginning of the next line.
 
 There is no interpolation or expansion of anything in the string.
+
+## $() operations
+
+Allows you to use a command within another command
+
+You can put a system command in the () and it will execute.
+
+```bash
+    cowsay $(ls -a)
+```
