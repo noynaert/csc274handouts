@@ -39,3 +39,10 @@ There is cache memory on most hard drives
 * /proc/meminfo
 * free
 
+### Other ways
+
+* top (standar, but old.  Built for 1 CPU)
+* htop (on most systems)
+* bashtop (on woz, not installed by default)
+
+Note that all of the above themeselves take resources
