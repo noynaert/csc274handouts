@@ -73,8 +73,8 @@ Quiting involves leaving insert mode and going back into "Command" mode
 
 * ```:q``` quits
 * ```:w``` writes out buffer to file
-* ```wq``` writes and quits
-* ```q!``` *read as "q bang" quits without saving
+* ```:wq``` writes and quits
+* ```:q!``` *read as "q bang" quits without saving
 
 
 ## Configuring vim
