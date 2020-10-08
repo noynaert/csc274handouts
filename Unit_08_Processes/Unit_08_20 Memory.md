@@ -25,5 +25,17 @@ Number of Bytes|Prefix| English Approximation|Power of 2|Amount of Data
 1.0995116e+12| Terabyte | Trillion | 2⁴⁰ |All the xrays in a large hospital (as images)
 1.1258999e+15| Petabyte | Quadrillion | 2⁵⁰ |Contents of all US academic research libraries as text
 
+## Cache 
 
+* Cache is high-speed memory
+* Typically small, just for the most recently used information
+
+There is cache memory on the CPU to reduce need to access Primary Storage
+
+There is cache memory on most hard drives
+
+## Linux Commands to find amount of memory
+
+* /proc/meminfo
+* free
 
