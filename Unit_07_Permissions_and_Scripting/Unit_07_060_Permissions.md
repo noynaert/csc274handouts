@@ -37,7 +37,7 @@ rwe|bits|octal
 r--|100|4
 r-e|101|5
 rw-|110|6
-rwe|700|7
+rwe|111|7
 
 * In practice, 0, 4, 6, and 7 are the most common
 * "write" implies ability to rename or delete
