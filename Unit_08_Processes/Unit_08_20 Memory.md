@@ -1,8 +1,6 @@
-# Unit 08.20 Processes
+# Unit 08.20 "Memory"
 
-Reference: [https://www.theunixschool](https://www.theunixschool.com/2012/09/what-is-process-in-unix-linux.html#:~:text=A%20process%20is%20a%20program,binary%20executable%20or%20any%20application.)
-
-## RAM, "Primary Storage," Memory
+## RAM, "Primary Storage,"Memory"
 
 * A program must be loaded into RAM in order to run
 * SWAP
