@@ -25,9 +25,9 @@ Now we combine SSH and X11 to make X11 more secure.
 
     If you start X11 through the command line, your new command line will need to have the -X parameter.  X is capitalized.
 
-    ```bash
+```
         ssh -X abyron@missouriwestern.edu
-    ```
+```
 
 In October 2020 Windows started making an X11 server available in Windows 10.  I hope this means I will be able to delete these notes soon.  (Written in October 2020, and the X11 server is still propagating.  It probably will not show up in the labs until next semester at the earliest.)
 
