@@ -1,6 +1,8 @@
-# Unit 08.40 Foreground and Background (with killing)
+# Unit 09.10 Foreground and Background (with killing)
 
-Each terminal may have one program in the foreground.  It may have many programs in the background.
+The process we see running in the terminal is in the *foreground.*  Terminal processes we have started but don't see are in the *background*
+
+Each terminal may have one program in the foreground.  It may have many processes in the background.
 
 ## Putting programs in the background
 
