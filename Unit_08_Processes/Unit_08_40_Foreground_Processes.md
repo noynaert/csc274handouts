@@ -42,9 +42,9 @@ Number | Name | Meaning
 ## ```kill``` command
 
 ```
-kill sl
-kill -1 sl
-kill -INT sl
+kill 29424
+kill -1 29424
+kill -INT 29424
 ```
 
 ## ```killall```
