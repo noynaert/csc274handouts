@@ -3,7 +3,7 @@
 
 Reference: [https://www.theunixschool](https://www.theunixschool.com/2012/09/what-is-process-in-unix-linux.html#:~:text=A%20process%20is%20a%20program,binary%20executable%20or%20any%20application.)
 
-When a program "loads" it is moved from Secondary Storage to Primary Storage (that is, from Disk to RAM)
+When a program "loads" it is copied from Secondary Storage to Primary Storage (that is, from Disk to RAM)
 
 ## Process
 
