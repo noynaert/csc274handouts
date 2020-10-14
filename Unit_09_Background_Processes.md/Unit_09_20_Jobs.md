@@ -21,6 +21,3 @@ A "job" is a process that was launched from a terminal and is now in the backgro
 
 ```fg %3``` would move the top sl to the foreground
 
-
-
-nohup
