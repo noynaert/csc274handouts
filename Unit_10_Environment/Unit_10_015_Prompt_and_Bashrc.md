@@ -1,10 +1,7 @@
-# Unit 10.1 Bash variables
+# Unit 10.015 Prompt and Bashrc
 
-## Shell Variables
+## Reference for escape codes: [https://misc.flogisoft.com/bash/tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
-### ```env```
+$PS1 is a string that specifies your prompt
 
-
-## User variables
-
-## Variables in Scripts
+## Saving your PS1 in .bashrc
