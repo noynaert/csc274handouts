@@ -59,3 +59,9 @@ PS1_ORIGINAL="$PS1"
 * [https://misc.flogisoft.com/bash/tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 ## Saving your PS1 in .bashrc
+
+Saving the PS1 variable in .bashrc will preserve it through reboot
+
+It is a variable, so it must be exported.
+
+Why does this belong in .bashrc rather than in .profile?
