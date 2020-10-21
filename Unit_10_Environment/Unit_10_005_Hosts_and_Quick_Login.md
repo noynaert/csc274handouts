@@ -55,7 +55,7 @@ Put a file with the name of your choice in your ~/bin folder.  Make sure it has 
 
 ## Login an ssh key exchange
 
-* Use ```ssh-keygen -t edesa``` to generate a public-private key pair
+* Use ```ssh-keygen -t ecdsa``` to generate a public-private key pair
 * By default the key will be stored in ~/.ssh
 * You may use the same key for multiple sites, but I prefer to generate a different pair for each server.
 * ```ssh-copy-id -i ~/.ssh/YOURKEYNAME.pub woz.cs.missouriwestern.edu``` to copy the public key to woz.cs.missouriwestern.edu

@@ -58,6 +58,11 @@ PS1_ORIGINAL="$PS1"
 
 * [https://misc.flogisoft.com/bash/tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
+### Some fun prompts
+
+[8 fun and useful prompts](https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/)
+
+
 ## Saving your PS1 in .bashrc
 
 Saving the PS1 variable in .bashrc will preserve it through reboot

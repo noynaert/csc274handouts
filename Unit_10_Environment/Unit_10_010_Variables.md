@@ -52,9 +52,21 @@ NUMBER=42
 ./asktux
 ```
 
+### export
+
+If a child needs the variable, it must be exported.
+
+Export may be done as a separate step
+
 ```bash
 NUMBER=88
-./asktux
 export NUMBER
+./asktux
+```
+
+Another way is to export it at the time it is created:
+
+```bash
+export NUMBER=956
 ./asktux
 ```
