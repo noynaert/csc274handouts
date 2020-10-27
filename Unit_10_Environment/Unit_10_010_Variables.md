@@ -40,7 +40,7 @@ Here is a script that sets a variable to a random value from 1 through 10 and pr
 
 ```bash
     #!/usr/bin/bash
-    NUMBER=echo "$RANDOM % 10 + 1" | bc
+    NUMBER=$(echo "$RANDOM % 10 + 1" | bc)
     echo $NUMBER
 ```
 
@@ -73,8 +73,9 @@ Export may be done as a separate step
     echo $NUMBER
     ./askTux
 ```
-export NUMBER
-./asktux
+```bash
+    export NUMBER
+    ./asktux
 ```
 
 Another way is to export it at the time it is created:
