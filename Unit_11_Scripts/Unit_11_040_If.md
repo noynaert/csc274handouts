@@ -14,13 +14,13 @@ If you want to do the command on a single line, then put a
 semicolon (;) at each new line.
 
 ```bash
-if [[ $A -eq $B ]]```;``` then echo "They are equal"```;``` else echo "They are not equal"```;``` fi
+if [[ $A -eq $B ]] ;  then echo "They are equal" ;  else echo "They are not equal" ;  fi
 ```
 
 ## A compact arrangement
 
 ```bash
-if [[ -d $FILENAME]]```;```then 
+if [[ -d $FILENAME]] ; then 
    echo "$FILENAME is a directory"
 fi
 ```

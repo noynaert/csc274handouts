@@ -108,7 +108,7 @@ The ```\``` key by itself means the command continues on the next line
 
 Some of the chaining commands feel like piping.  But they are not.  The output from one is not redirected to the next command in the chain
 
-* ```;```
+*  ; 
   * allows 2 commands on the same line
 * ```&&```  
   * Be careful not to use a single &, at least in this chapter
