@@ -9,17 +9,28 @@
 > (computing, programming) The property of being falsy, i.e. evaluating to false in a Boolean context.
 
 ---
+## **truthiness**
+
+---
+
+> **truthiness**
+
+> (computing, programming) The property of being truthy, i.e. evaluating to false in a Boolean context.
+
+---
 
 ***Anything that evaluates to 0 is false.  Anything that evaluates to non-zero is true***
 
 Falsy Values | Truthy Values
 ---|---
+false | true
 0 | integers that are not 0
 "" (Empty String)|"a" (String with length > 0)
 Null or nothing|Something that isn't null or 0
 Empty array or list|Array or list with at least one element
 0| 0.0 (Effectively a string with length of 3)
-A file does not exist or file has length of zero | File exists and has at least 1 character
+A file does not exist | File exists
+A file is empty | File has at least 1 character
 
 ## exit code
 
