@@ -39,7 +39,7 @@ COUNT=0
 while [[ $WORD ]]
 do
     printf "You typed \"$WORD\"\n"
-		((COUNT++))
+	((COUNT++))
     read -p "Type a word, or press enter by itself to quit > " WORD
 done
 echo "You entered $COUNT words"
