@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+# is there at least 1 parameter?
+if [ $# == 0 ] ; then
+  # If there is no filename, send a usage message to stderr
+  1>&2 echo "  usage: $0 filename"
+  exit 1
+else
+  FILENAME="$1"  #quotes in case $1 contains a blank or special character
+fi
+
+# is the FILENAME a readable file?
+if [[ ! -f "$FILENAME" ]] ; then
+  1>&2 echo "$FILENAME must be a regular file"
+	exit 2
+fi
+MAXLENGTH=0
+MAXWORD=""
+
+while read LINE 
+do
+  LENGTH=${#LINE}
+	if [[ $LENGTH -gt $MAXLENGTH ]] ; then
+    MAXLENGTH=$LENGTH
+		MAXWORD="$LINE"
+		printf "%4d: %s\n" $MAXLENGTH "$MAXWORD"
+	fi
+done < "$FILENAME"
+echo "Longest word was \"$MAXWORD\" with a length of $MAXLENGTH"
