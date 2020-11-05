@@ -1,4 +1,4 @@
-# Unit 12.020 Reading from Stdin
+# Unit 12.010 Reading from Stdin
 
 ## ```read```
 
@@ -57,13 +57,13 @@ read FIRST
 #!/usr/bin/bash
 echo "Enter an integer"
 read FIRST
-if [ ! $(echo $FIRST | grep -E '^[+|-]?[0-9]+$') ]
+if [[ ! $(echo $FIRST | grep -E '^[+|-]?[0-9]+$') ]]
 then
   echo "Must be an integer"
   exit 1  ## first integer is invalid
 fi
 read -p "Enter another number " SECOND
-if [ ! $(echo $SECOND | grep -E '^[+|-]?[0-9]+$') ];then
+if [[ ! $(echo $SECOND | grep -E '^[+|-]?[0-9]+$') ]];then
   echo "Must be an integer"
   exit 2   # second parameter is invalid
 fi

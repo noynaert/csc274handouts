@@ -1,4 +1,4 @@
-Unit 11.050 ```for``` Loops and Lists
+# Unit 11.020 ```for``` Loops and Lists
 
 Bash for loops are similar to:
 
@@ -66,6 +66,7 @@ for odd in $(seq 1 2 10)
 do
         printf "%6.1f\n" $odd
 done
+```
 
 Here is one more example using seq.  It is here mainly because computer scientists have an unnatural affection for modulo operations.  Try running this and notice that it produces a repeating cycle of 0, 1, 2, 3
 
