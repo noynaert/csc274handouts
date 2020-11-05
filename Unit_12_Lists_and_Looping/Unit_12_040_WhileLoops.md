@@ -30,10 +30,21 @@ while boolean ; do
 done
 ```
 
+## An example
 
+```bash
+#!/usr/bin/bash
+read -p "Type a word, or press enter by itself to quit > " WORD
+COUNT=0
+while [[ $WORD ]]
+do
+    printf "You typed \"$WORD\"\n"
+		((COUNT++))
+    read -p "Type a word, or press enter by itself to quit > " WORD
+done
+echo "You entered $COUNT words"
+```
 
-
-
-
+## A more complete example
 
 ![Counting Loop](images/while.png)
