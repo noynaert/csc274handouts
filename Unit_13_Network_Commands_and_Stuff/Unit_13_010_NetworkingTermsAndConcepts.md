@@ -68,3 +68,17 @@ A server may run multiple servers.  Each server has a "port" assigned to it.  Fo
 A firewall is a a security measure.  A firewall blocks traffic to computers and ports on those computers.  
 
 Firewalls may be on a computer or may be part of the network.  
+
+## Loopback Address
+
+Any IP v4 address starting with 127. is a "loopback" address.  Most of the time people use 127.0.0.1 as the loopback address.
+
+The loopback address is the address of the local machine (if it only has one active network device)
+
+What happens if you ping 127.0.0.1?
+
+## Routers and packets
+
+The Internet is really a collection of computers called routers.  Routers typically have multiple network cards connected to many "local" subnetworks.  Data sent across the Internet is divided into packets or blocks of data.  Then it s sent from your computer to the gateway.  The gateway is the first router.  From that point the data travels from router to router until it gets to the destination.
+
+https://geekflare.com/linux-networking-commands/
