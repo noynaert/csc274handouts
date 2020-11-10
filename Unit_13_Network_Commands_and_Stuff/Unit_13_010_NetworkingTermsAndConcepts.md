@@ -56,3 +56,15 @@ The Internet Address is also known as a "MAC Address."  An example would be b0:8
 ## DNS
 
 The Domain Name System (DNS) assigns names to IP addresses.  For example, the computer named "noynaert.com" has an IP address of 216.239.34.21
+
+## Ports
+
+Ports are connection points on servers.
+
+A server may run multiple servers.  Each server has a "port" assigned to it.  For example, on woz, port 80 is for Http access (web pages).   
+
+## Firewall
+
+A firewall is a a security measure.  A firewall blocks traffic to computers and ports on those computers.  
+
+Firewalls may be on a computer or may be part of the network.  
