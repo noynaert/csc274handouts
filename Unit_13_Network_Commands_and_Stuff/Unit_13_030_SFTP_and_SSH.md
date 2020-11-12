@@ -29,3 +29,10 @@ There are both command line interfaces and gui interfaces.
 ### Why not just ```ftp```
 
 FTP does not use encryption.  It also does not encrypt passwords.  They are sent across the network in clear text.  Therfore anyone along the route may use tcpdump or wireshark to capture your password.
+
+## Gui versions
+
+There are quite a few graphical versions of sftp.
+
+* Bitvise: If you are on a windows machine using Bitvise you have probably seen an sftp client open every time you make a connection to woz.  Its sftp client may also be used independently of the ssh connection.
+* Filezilla:  Filezilla is the most famous of the free gui programs.  Unfortunately a lot of the versions you find online are infested with malware.  If you are on a Linux system only install filezilla using your package manager from your distro's official repository.  If you are on a Mac install filezilla with brew.  If you are on a Windows system stick with bitvise.
