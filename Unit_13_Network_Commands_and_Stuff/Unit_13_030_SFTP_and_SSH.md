@@ -1,6 +1,6 @@
 # Unit 13.030 Moving Files
 
-There are several ways to move files.  We will focus on SFTP becaus of its general usefulness.
+There are several ways to move files.  We will focus on SFTP because of its general usefulness.
 
 ## ```ssh```
 
