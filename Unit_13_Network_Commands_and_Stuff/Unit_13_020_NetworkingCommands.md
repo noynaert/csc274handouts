@@ -1,4 +1,4 @@
-Unit 13.020 Networking Commands
+# Unit 13.020 Networking Commands
 
 Remember the man pages!
 
@@ -105,7 +105,7 @@ tun0 is a tunnel.  I assume it is there because I am connected to the Internet v
 
 ## ```dig```
 
-```dig`` queries dns servers about entries in the dns database
+```dig``` queries dns servers about entries in the dns database
 
 ## ```wget```
 
