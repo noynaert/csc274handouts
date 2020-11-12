@@ -45,17 +45,67 @@ The ```ip``` command is fairly new.  It is intended to replace the ```ifconfig``
 
 ## ```traceroute```
 
-Traceroute shows each router 
+Traceroute shows each router the message travels over from the client to the server.  It usually gives travel times.  That makes it possible for a network administrator to identify where bottlenecks may exist.
+
+There are various reasons information might not be returned.  When information is unavailable and asterisk * is placed in the data field.
 
 ## ```nslookup```
 
+```nslookup``` gives information about dns information.  It works in both interactive and noninteractive modes.  
+
+Noninteractive happens when you give a host name.  It prints some basic information.
+
+```text
+$ nslookup www.missouriwestern.edu
+Server:         10.65.0.1
+Address:        10.65.0.1#53
+
+Non-authoritative answer:
+Name:   www.missouriwestern.edu
+Address: 150.200.1.43
+``` 
+If you don't supply a domain name it goes interactive.  See the man page.
+
 ## ```nmap```
+
+```nmap``` got star treatment in the movie *The Matrix*
+
+It basically scans the network.  It gives the ip addresses of systems it finds.  It also tries to find open ports. Run times can take several minutes.  If you are on your home network you could run the following command and find all your local systems including laptops, printers, and anyone on the local wifi.
+
+```
+$ nmap -sn 192.168.0.0/16
+```
+nmap is not installed on woz.  Running it would set off alarm bells in the IT department because it could signify that the network is under attack.
+
 
 ## ```netstat```
 
+This is another command that returns information about network interfaces and the amount of traffic flowing through each of them.
+
+I like it because it is clean.  Here is a run on my home system.
+
+```text
+$ netstat -i
+Kernel Interface table
+Iface      MTU    RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg
+enp1s0    1500 10211170      0     31 0       6688715      0      0      0 BMRU
+lo       65536  1824449      0      0 0       1824449      0      0      0 LRU
+tun0      1500  4690012      0      0 0       2954260      0  13938      0 MOPRU
+```
+
+I have one network interface (enpls0) that is an ehternet connection connected by a router.
+
+lo is the loopback address
+
+tun0 is a tunnel.  I assume it is there because I am connected to the Internet via a VPN.
+
 ## ```tcpdump```
 
+```tcpdump``` lists raw data from packets sent across a network link.  It is not installed on woz because of security issues.
+
 ## ```dig```
+
+```dig`` queries dns servers about entries in the dns database
 
 ## ```wget```
 
