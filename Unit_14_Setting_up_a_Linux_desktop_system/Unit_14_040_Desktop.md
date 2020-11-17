@@ -1,1 +1,12 @@
 # Unit 14.040 Desktop
+
+## Gnome is the standard
+
+    Task Bar is on the left.  
+    
+    Use the Windows key or the button in the lower left corner to bring up other apps
+
+## KDE
+
+Lightweight, has a lot of utilities
+
