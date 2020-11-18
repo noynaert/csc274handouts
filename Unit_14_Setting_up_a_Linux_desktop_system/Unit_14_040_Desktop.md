@@ -10,3 +10,6 @@
 
 Lightweight, has a lot of utilities
 
+## Window Managers
+
+I love Window Managers.  I am very fond of both DM and Regolith.  But new Linux users should probably stay away for now.
