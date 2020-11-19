@@ -2,7 +2,7 @@
 
 This document is targeted at people installing Linux desktop for the first time.
 
-I suggest that first-time (or even second-time) Linux users stay with Ubuntu or something that is derived from Linux.  More experienced users may wish to branch out.
+I suggest that first-time (or even second-time) Linux users stay with Ubuntu or something that is derived from Ubuntu.  More experienced users may wish to branch out.
 
 Reasons for staying in the Ubuntu family:
 
