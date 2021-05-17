@@ -92,7 +92,7 @@ Actually, the space between the option and the argument is optional, so the foll
 cowsay -ftux "Hi"
 ```
 
-One word of caution is in order.  The same letter may mean entirely different flags in different commands.  The ```-f``` flag doesn't always mean "file."
+One word of caution is in order.  The same letter may mean entirely different flags in different commands.  The `-f` flag doesn't always mean "file."
 
 ## Don't worry about too many details at this point
 
@@ -104,31 +104,4 @@ As always,
 cowsay -f dragon "Have a lot of fun!"
 ```
 
-## Istalling new commands
-
-Installing some commands requires you to be an administrator on the system.  The administrators are referred to as "super users."  On the woz.cs system most students are not super users, but if you install Ubuntu on a laptop you will have super user rights.
-
-For now you don't need to know all of these distributions.  But you do need to know that there are different distributions.  You should know that the woz.cs system is running Ubuntu which is running Fedora which is an rpm-based system. The different distributions all worm much the same, but they will have different ways of installing software.
-
-Three main types of distributions
-* Debian Based  (.deb)
-  * Debian
-  * Ubuntu, Kubuntu, Lubuntu, etc
-  * Mint
-  * Pop!
-* Red Hat (.rpm based)
-  * Red Hat
-  * Fedora
-  * Suse
-* Others
-  * Arch
-  * Slackware
-  
-### Apt  
-  * apt or apt-get for .deb distributions
-  * dnf or yum for .rpm distributions
-
-### New kids on the block:
-  * snap
-  * flatpack
-  * appimagec      
+    
