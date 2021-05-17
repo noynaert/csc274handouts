@@ -1,6 +1,8 @@
-# Unit 01 15 SSH (Optional)
+# Unit 01.15 SSH (Optional)
 
-If you are logging in from a Mac or Linux you will probably want to use this method of logging in.  Windows users may also use it if they have WSL2 installed on their system.
+If you are using Linux or a Mac you have a Bash shell already installed.  It is probably accessed using your "terminal" command.
+
+If you are on a Windows system you may use Putty or Bitvise.  But if you have WSL or WSL2 installed on your Windows 10 system you may use the terminal and Bash shell in WSL.
 
 Your password will be provided by your instructor
 
@@ -20,4 +22,6 @@ You should now be prompted for your user name.
 You may be prompted for a password or you may be prompted to enter a password.
 
 
+## When you are finished
 
+Type "exit" at the prompt.  This will close the connection.

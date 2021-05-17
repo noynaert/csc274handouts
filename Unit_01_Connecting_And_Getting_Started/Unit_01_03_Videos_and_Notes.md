@@ -1,4 +1,4 @@
-# Unit 01_03 Videos and Notes
+# Unit 01.03 Videos and Notes
 
 ## A how-to
 
@@ -17,7 +17,7 @@
     * I tend to re-record rather than edit
   * It is easier for students to keep track of where you are
   * These pages in the github repo generally correspond to PowerPoints or handouts.
-    * [https://github.com/noynaert/csc274repo](https://github.com/noynaert/csc274repo)
+    * [https://github.com/noynaert/csc274handouts](https://github.com/noynaert/csc274handouts)
     * Generally 1 repo page per video or group of videos
     * Should you print out these handouts
 
