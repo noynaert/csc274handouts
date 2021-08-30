@@ -10,7 +10,7 @@
 ## Videos
 
 * Videos replace the lectures
-* This is a 2-credit-hour class, so I aim at roughly 100 minutes of video per week 
+* This is a 3-credit-hour class, so I aim at roughly 150 minutes of video per week 
 * I try to break them into shorter videos
   * It is hard to stay focused on long videos
   * It is hard to make long videos
