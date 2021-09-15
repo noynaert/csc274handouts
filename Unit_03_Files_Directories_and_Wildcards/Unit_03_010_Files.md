@@ -20,7 +20,7 @@ total 1192
 
 * column 1 ```-rw-rw-r--.```
   * The first character is the file type.
-    * - is a regular file
+    * \- is a regular file
     * d is a directory
     * l is a link
     * c is a character device
