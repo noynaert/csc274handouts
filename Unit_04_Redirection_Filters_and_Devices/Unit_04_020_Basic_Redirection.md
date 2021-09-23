@@ -20,14 +20,6 @@ Most programs are set up in two different ways.  By default they read from stdin
 
 redirection causes something other than the keyboard to be used for input.
 
-### pipe
-
-We have seen the Pipe command.  
-
-Example:  
-   * The date command sends output to stdout.
-   * Cowsay takes input from stdin and sends the results to stdout
-   * The command ```date | cowsay``` has the date command redirect its stdout to the stdin of cowsay
 
 ### Redirect stdout
 
@@ -79,6 +71,17 @@ The new way is to use the following.  I recommend it, although there are a few w
 ```bash
 ls &> results.txt
 ```
+
+## Pipes
+
+The Pipe command redirects the output of one command into the input of another command.
+
+The symbol for pipe is `|`.  It is usually right above the "Enter" key on the keyboard.  It is usually the shift-\ key.  The symbol is called the "Vertical Bar."  On many keyboards the actual symbol shown is `¦` which is technically known as the "broken bar"
+
+Example:  
+   * The date command sends output to stdout.
+   * Cowsay takes input from stdin and sends the results to stdout
+   * The command ```date | cowsay``` has the date command redirect its stdout to the stdin of cowsay
 
 ## Appending output
 
