@@ -72,7 +72,7 @@ The new way is to use the following.  I recommend it, although there are a few w
 ls &> results.txt
 ```
 
-## Pipes
+### Pipes
 
 The Pipe command redirects the output of one command into the input of another command.
 
