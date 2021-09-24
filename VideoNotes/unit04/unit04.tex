@@ -1,3 +1,4 @@
+%!TEX program = xelatex
 \documentclass[letterpaper,12pt]{exam}
 \usepackage{csc274videonotes}
 
@@ -24,34 +25,34 @@
 \section*{\unit\_020 A --- Basic Redirection} % Unnumbered section
 
 
-	\question What is \code{\BS dev\bs stdin}? 
-	(Sometimes it is just called \code{stdin})
-	\vspace{5mm}
+\question What is \code{\BS dev\bs stdin}?
+(Sometimes it is just called \code{stdin})
+\vspace{5mm}
 
-	\question What is \code{\BS dev\bs stdout} or \code{stdout}?
-	\vspace{5mm}
+\question What is \code{\BS dev\bs stdout} or \code{stdout}?
+\vspace{5mm}
 
-	\question What is \code{\BS dev\bs stdout} or \code{stderr}?
-	\vspace{5mm}
+\question What is \code{\BS dev\bs stdout} or \code{stderr}?
+\vspace{5mm}
 
-	\question Which of the two devices often send data to the same location?
-	\vspace{5mm}
+\question Which of the two devices often send data to the same location?
+\vspace{5mm}
 \section*{\unit\_020 B --- Redirecting stdout} % Unnumbered section
 
 \question What symbol is used to redirect stdout to a file? \_\_\_\_
 
 \begin{samepage}
-\question What command would output the results of the \code{fortune} command to a file named quote.txt?  
-\vspace{5mm}
+	\question What command would output the results of the \code{fortune} command to a file named quote.txt?
+	\vspace{5mm}
 \end{samepage}
 
 \begin{samepage}
-\question The \code{cat} command is usually followed by the name of a text file.  What happens 
-if no file name is given and the output is redirected to a file? 
-\vspace{15mm}
+	\question The \code{cat} command is usually followed by the name of a text file.  What happens
+	if no file name is given and the output is redirected to a file?
+	\vspace{15mm}
 
-\question If you are using the \code{cat} command to create a file, how do you
-signal the end-of-file?  
+	\question If you are using the \code{cat} command to create a file, how do you
+	signal the end-of-file?
 \end{samepage}
 \section*{\unit\_020 C --- Redirecting stderr} % Unnumbered section
 
@@ -70,8 +71,8 @@ signal the end-of-file?
 \question What symbol is used to redirect stdout from one command as input to the following command? \_\_\_\_
 
 \begin{samepage}
-\question Write a pipe statement that is not used in the video (make one up and try it out on woz.) 
-\vspace{5mm}
+	\question Write a pipe statement that is not used in the video (make one up and try it out on woz.)
+	\vspace{5mm}
 \end{samepage}
 
 
@@ -81,16 +82,16 @@ signal the end-of-file?
 \question What symbol is used to redirect stdin from a file? \_\_\_\_
 
 \begin{samepage}
-\question Comment (not a question)  Input from a file is extremely useful when getting data into scripts.  However, I don't find that I use < very much in situations other than using custom scripts
-\vspace{5mm}
+	\question Comment (not a question)  Input from a file is extremely useful when getting data into scripts.  However, I don't find that I use < very much in situations other than using custom scripts
+	\vspace{5mm}
 \end{samepage}
 
 \begin{samepage}
-\question Assume there is a file called "data.txt" and an command called "tabulate.sh."  Write a single Bash command that uses data.txt as input to tabulate and which sends the output to a new text file called "results.txt"  
-\vspace{5mm}
+	\question Assume there is a file called "data.txt" and an command called "tabulate.sh."  Write a single Bash command that uses data.txt as input to tabulate and which sends the output to a new text file called "results.txt"
+	\vspace{5mm}
 
-\question Now assume there is another file called "moreData.txt".  Write the command that uses moreData.txt as input to tabulate.sh and \textbf{\textit{appends}} it to the results.txt file from the previous question.  (This was not covered in the video, but figure it out.)
-\vspace{5mm}
+	\question Now assume there is another file called "moreData.txt".  Write the command that uses moreData.txt as input to tabulate.sh and \textbf{\textit{appends}} it to the results.txt file from the previous question.  (This was not covered in the video, but figure it out.)
+	\vspace{5mm}
 \end{samepage}
 
 \section*{\unit\_020 F --- Chaining} % Unnumbered section
@@ -110,6 +111,32 @@ Comment:  If you know number systems like decimal and hexadecimal you may skip t
 
 \section*{\unit\_025} % Unnumbered section
 
+\begin{samepage}
+	\question Would /dev/null be used more for input or output?  Explain your answer.
+	\vspace{5mm}
+
+	\question Would /dev/zero be used more for input or output?  Explain your answer.
+	\vspace{5mm}
+
+	\question Would /dev/random be used more for input or output?  Explain your answer.
+	\vspace{5mm}
+
+	\question What s the difference between /dev/random and /dev/urandom?  Suggest one use for where each of them
+	\vspace{15mm}
+
+	\question How is \$RANDOM different than /dev/random and /dev/urandom?
+	\vspace{15mm}
+\end{samepage}
+
+\begin{samepage}
+\question Explain what each of the following commands or files does.
+\begin{itemize}
+	\item \code{yes}
+	\item \code{history}
+	\item \code{/usr/share/dict/words}
+\end{itemize}  
+
+\end{samepage}
 
 \end{questions}
 \begin{figure}[b]\label{end}
