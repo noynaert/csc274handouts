@@ -32,7 +32,7 @@ It is not very random.  Probably good enough for wumpus-level games.
 echo $RANDOM
 cowsay $RANDOM
 echo $RANDOM > mystery.txt
-
+```
 
 ## Commands for piping or io
 
