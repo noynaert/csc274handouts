@@ -4,7 +4,7 @@
 		"body": [
 			"\\begin{samepage}",	
 		  "\\question $0 ",
-			"\\vspace{15mm}",
+			"\\vspace{5mm}",
 			"\\end{samepage}"				
 		],
 		"description": "Generates a question and space for an exam"

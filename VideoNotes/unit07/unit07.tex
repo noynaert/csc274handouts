@@ -1,0 +1,166 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{csc274videonotes}
+
+\newcommand{\unit}{Unit 07}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 274 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 274 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+
+
+
+\begin {questions}
+
+\section*{\unit\_010 --- Overview} % Unnumbered section
+
+\begin{samepage}
+	\question What is \code{vi}?
+	\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question The \code{sed} filter is similar to the {\color{blue}\fillin[][2cm]} filter we used before the midterm.
+\end{samepage}
+
+\begin{samepage}
+	\question The \code{awk} filter is similar to the {\color{blue}\fillin[][2cm]} filter we used before the midterm.
+\end{samepage}
+	
+\section*{\unit\_020 --- \code{vi}} % Unnumbered section
+
+You can probably skip the first 12 minutes of the video.  It is about the history.  Feel free to watch that if you want to know about the history.
+
+\begin{samepage}
+\question In vi, How do you go into insert mode? How do you tell if you are in Insert mode?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What is \code{vim}?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Write the command for each of the following tasks in vi: 
+\begin{enumerate}
+\item
+Enter insert mode:
+\item Exit from insert mode:
+\item Quit (assuming there were no changes):
+\item Write changes to the file:
+\item Write changes to the file and quit (in a single command):
+\item Quit and discard changes:
+\item Search:
+\item Move to the next instance of the search item:
+\end{enumerate}
+\end{samepage}
+
+\begin{samepage}
+\question What is the name of the configuration for vim?  {\color{blue}\fillin[][2cm]} 
+\end{samepage}
+
+\begin{samepage}
+\question What commands would you put in .vimrc that would turn on line numbers, turn on syntax highlighting, and set the tabstop to 4? 
+
+\end{samepage}
+
+\section*{\unit\_030 --- \code{sed} and \code{awk}} % Unnumbered section
+
+\begin{samepage}
+\question What are some differences between sed and tr? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What are the four fields in a sed substitution? {\color{blue}\fillin[][2cm]}, {\color{blue}\fillin[][2cm]}, {\color{blue}\fillin[][2cm]}, {\color{blue}\fillin[][2cm]} 
+\end{samepage}
+
+\begin{samepage}
+\question What do the "i" and "g" options do in sed?  (These are the same as used in many regular expression situations, so they are worth remembering.)
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Write the sed substitution to change 'MWSU" to 'Mo West.'  All occurrences on the line should be changed. 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Write the sed command to delete all lines containing one or more digits as the first non-blank character of the line. 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What are some differences between \code{awk} and \code{cut}? 
+
+\end{samepage}
+
+\section*{\unit\_040 --- More Redirection} % Unnumbered section
+
+\begin{samepage}
+\question What does the \code{tee} command do?  
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What does the \code{here} command do? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question The concept of the "here doc" has made its way into most computer languages.  Search online or in a textbook and find out how the "here" command is in the language of your choice.  Java, Python, and JavaScript are all possible choices for your research.  Word of warning:  Java didn't include multi-line strings until version 13.  When they did it, they did it right, but it took a while.  In the space below demonstrate a here block or mult-line string in the language of your choice.
+
+Language: {\color{blue}\fillin[][2cm]}
+\vspace{25mm}
+\end{samepage}
+
+\begin{samepage}
+\question Earlier in the semester I asked why the code \code{cd .} was useless.  The command \code{cd \$(pwd)} looks far more impressive than \code{cd .} Explain how both commands do the same thing. (Command substitution is extremely important, and we will beat it to death later.  But for now just use this silly example to get a feeling for how it works.)
+\vspace{5mm}
+\end{samepage}
+
+
+\section*{\unit\_060 --- Permissions}
+
+Section 060 is about permissions which we have already covered.  Review \url{https://github.com/noynaert/csc274handouts/blob/master/Unit_07_Permissions_and_Scripting/Unit_07_060_Permissions.md} if you have any questions. 
+
+\section*{\unit\_070 --- Permissions}
+\begin{samepage}
+\question What is the PATH? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What folder in the user's home directory is traditionally used to hold the user's personal shell scripts? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What is a shabang?  How is it used? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What does the \code{which} command do? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Do you have any questions? 
+\vspace{5mm}
+\end{samepage}
+
+\end{questions}
+\vspace{40mm}
+\noindent Note: There are several other videos in the folders.  Those step through the homework exercises if you want their help.
+
+\begin{figure}[b]\label{end}
+	\center
+	\includegraphics[width=1in]{tux}
+	%{\center{By Maxo based on the work File:Tux-G2.png}}
+\end{figure}
+\end{document}
