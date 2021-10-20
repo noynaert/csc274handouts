@@ -66,8 +66,3 @@ You must authorize X11 forwarding.  Be sure to save the session after you make t
 * Just check the box for X11 Forwarding.
 * Close that window and get back to the main Putty Window.
 * Click on "Session" and then save the Session
-
-First Screen|Second Screen
----|---
-![images/x11.png](Pick Sessions and X11) | ![images\x112.png](Enable x11 forwarding)
-
