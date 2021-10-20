@@ -6,7 +6,7 @@
 * SWAP
   * Swap is an overflow area for RAM.  If RAM is full, the extra data goes to swap.
   * Swap is on the hard drive
-    * The hard drive is roughly a thousand to a million times slower than Primary Storage
+    * The hard drive is roughly a million times slower than Primary Storage
     * "Thrashing" is when material is being moved back and forth constantly between primary storage and swap space
 
 ### Measuring RAM (and other stuff)
@@ -41,7 +41,7 @@ There is cache memory on most hard drives
 
 ### Other ways
 
-* top (standar, but old.  Built for 1 CPU)
+* top (standard, but old.  Built for 1 CPU)
 * htop (on most systems)
 * bashtop (on woz, not installed by default)
 
