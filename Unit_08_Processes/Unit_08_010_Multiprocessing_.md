@@ -26,7 +26,7 @@ When there are multiple cores (processors) the problem is similar.  Except inste
   * Grep is your friend.  Other utilities can help as well.
 
 The following script prints CPU information.  
-  * # indicates the start of a comment.  The rest of the line after the # is all comment.
+  * \# indicates the start of a comment.  The rest of the line after the # is all comment.
   * \ may be used when it is necessary or desirable to "wrap" a command to the next line.
 ```bash
 #!/usr/bin/bash
@@ -37,4 +37,3 @@ echo "  $(cat /proc/cpuinfo | grep 'model name' | uniq | \
 sed 's/model name/Model Name/')"
 echo "  Processor Count: $(cat /proc/cpuinfo | grep 'processor' | wc -l)"
 ```
-The ```lscpu``` command produces a summary of the plethora of information in /proc/cpuinfo.  Note that lscpu is a command, not a file.
