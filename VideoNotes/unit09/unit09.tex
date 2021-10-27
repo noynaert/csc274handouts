@@ -1,0 +1,132 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{csc274videonotes}
+
+\newcommand{\unit}{Unit 09}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 274 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 274 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{X Windows} % Unnumbered section
+If you can make X-Windows work on your system, then I suggest you have your system set up to allow X-Windows.  Windows users may need to run something like Xming or CYGWIN in order to get a server.
+If you are doing ssh from the command line then you will probably need to start ssh with \code{ssh -X} so that you can run X. If you are on Putty or Bitvise you will need to enable X-11 tunneling through ssh.
+
+\begin {questions}
+
+\section*{Review of processes} % Unnumbered section
+
+\begin{samepage}
+\question The first video,  "Unit 08 30 Processes" is actually a rerun from last week.  If you can answer the following question, then you may skip the video.  If you can't answer the question, the rewatch the video. \par \textit{Question:} What is the difference between the command \code{ps} and the command \code{ps -x}?
+\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_010 --- Foreground, Background, and Killing}
+
+\begin{samepage}
+\question How many processes can you have running in the foreground?  How many in the background?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Based on my struggles with \code{xeyes} in the video, should X applications generally be run in the foreground or background?  Why?  What command allows you to run xeyes so that you may still use the keyboard? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What are two different ways to put a process in the background? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Why is the \code{sl} command effectively blocked when it runs in the background?   Why aren't X applications like xeyes and xclock blocked when they are in the background?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Why is "killing a process" and "Asking a program to end" an important difference?  Why would we want a program to take responsibility for killing itself? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What is the difference between the -2 and -9 options on the kill command? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Why is closing the terminal effectively the same as killing background processes with \code{kill -1} 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What does the \code{kill -19} do?  How do you release a job from -19. 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question How is \code{killall} different from \code{kill}?  Does killall actually kill all of your processes? 
+\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_020 --- Jobs}
+
+\begin{samepage}
+\question What does the \code{fg} command do? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What does the \code{jobs} command do? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question In the video the \code{killall -2 xlogos} did not kill the xlogos.  However, the command \code{killall -9 xlogos} did kill them.  Why did -9 work, but -2 did not?  
+\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_030 --- nice}
+
+\begin{samepage}
+\question What is the motivation for running processes in the background? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Does the \code{nice} command actually do anything nice? Explain your answer.
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question  What do high values of nice mean?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question Write the command needed to run the \code{sl} command at "maximum niceness." 
+\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_040 --- nohup}
+
+\begin{samepage}
+\question What does the \code{nohup} command do?  Why is it often done with an & at the end of the line? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What happens to the output of the \code{nohup} command by default? 
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What is the difference between \code{disown} and \code{nohup}? 
+\vspace{5mm}
+\end{samepage}
+
+
+\end{questions}
+
+\end{document}
