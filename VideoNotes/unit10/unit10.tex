@@ -1,0 +1,35 @@
+%!TEX program = xelatex
+\documentclass[letterpaper,12pt]{exam}
+\usepackage{csc274videonotes}
+
+\newcommand{\unit}{Unit 10}
+\pagestyle{headandfoot}
+\firstpageheader{CSC 274 \semester\ \  \unit}{}{Name: $\rule{6cm}{0.15mm}$}
+\runningheader{CSC 274 \semester}{\unit}{Page \thepage\ of \numpages}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+\begin{document}
+\section*{X Windows} % Unnumbered section
+If you can make X-Windows work on your system, then I suggest you have your system set up to allow X-Windows.  Windows users may need to run something like Xming or CYGWIN in order to get a server.
+If you are doing ssh from the command line then you will probably need to start ssh with \code{ssh -X} so that you can run X. If you are on Putty or Bitvise you will need to enable X-11 tunneling through ssh.
+
+\begin {questions}
+
+\section*{10.005 Hosts} % Unnumbered section
+
+\begin{samepage}
+\question What is the purpose of the \code{hosts} file?
+\vspace{5mm}
+\end{samepage}
+
+\begin{samepage}
+\question What is the path to the hosts file on the computer system you are using? 
+\vspace{5mm}
+\end{samepage}
+
+\section*{\unit\_010.005 -- sshKeyExchange}
+
+\end{questions}
+
+\end{document}
