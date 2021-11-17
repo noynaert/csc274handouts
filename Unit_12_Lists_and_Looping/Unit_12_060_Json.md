@@ -1,5 +1,10 @@
 # 12.060 JSON
 
+## What is JSON?
+
+JSON stands for JavaScript Object Notation.  It is a string representation of a JavaScript object.  
+
+Even though it was developed from JavaScript, JSON has become a standard method of exchanging data between computer systems.  Most languages have the ability to read and write JSON data.
 
 ```bash
 curl -s http://api.open-notify.org/iss-now.json
