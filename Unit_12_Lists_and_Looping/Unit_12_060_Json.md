@@ -5,7 +5,7 @@
 curl -s http://api.open-notify.org/iss-now.json
 curl -s https://api.coindesk.com/v1/bpi/currentprice.json | jq '.bpi .USD .rate'
 
-curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5'
+curl -s https://api.github.com/repos/noynaert/csc274handouts/commits?per_page=5
 ```
 
 
