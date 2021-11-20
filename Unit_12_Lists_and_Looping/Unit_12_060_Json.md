@@ -99,6 +99,12 @@ Arrays may contain objects without assigning them names:
 
 When css is transmitted over the Internet it is often minimized.  This saves bandwidth.  
 
+Here is a curl statement to fetch some minified JSON.
+
+```bash
+curl -s http://api.open-notify.org/iss-now.json
+```
+
 ## `jq`
 
 The `jq` command is an extremely powerful command for handling JSON data.  It contains an entire programming language within it.
@@ -107,7 +113,54 @@ The `jq` command is an extremely powerful command for handling JSON data.  It co
 
 The simplest filter is just a period.  I don't find anything that identifies what the period represents, but after playing with jq for a while I believe that that the period represents the "root" of the json structure.
 
-Here is a simple curl command that produces "minified" JSON.
+```bash
+curl -s http://api.open-notify.org/iss-now.json | jq '.'
+{
+  "iss_position": {
+    "longitude": "-49.9521",
+    "latitude": "-10.3959"
+  },
+  "timestamp": 1637431248,
+  "message": "success"
+}
+```
+
+To recover the timestamp we can specify the .timestamp field
+
+```bash
+curl -s http://api.open-notify.org/iss-now.json | jq '.timestamp'
+1637431538
+```
+
+The ISS data has a field "iss_postion" which is an object.  To "drill down" we separate the fields by blanks.
+
+```bash
+curl -s http://api.open-notify.org/iss-now.json | jq '.iss_position .latitude'
+```
+
+Here is a command that finds the current price of bitcoin. (Remove the filter to see what is actually happening)
+
+```bash
+curl -s https://api.coindesk.com/v1/bpi/currentprice.json | jq '.bpi .USD .rate'
+"57,959.3451"
+```
+
+## Working with arrays in jq
+
+This URL contains data about states.  Note that it is an array of objects.  [https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json](https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json)
+
+```bash
+# Get the array broken into elements (which are objects)
+curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[]'
+
+# print the capital of each state
+curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[] .capital_city'
+```
+
+It is possible to make arrays and new objects from existing JSON.  It is also possible to merge two different JSON objects.  But that is mostly beyond what we are going to do here. 
+
+curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[] | {capital_city,  state}' 
+
 
 ## Sample Commands
 
@@ -126,7 +179,6 @@ curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/
 
 Create objects: curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq 'sort_by(.capital_city) | .[] | {  capital_city,  state }' 
 ```
-
 
 ## References
 
