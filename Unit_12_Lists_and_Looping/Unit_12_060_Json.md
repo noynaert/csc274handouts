@@ -99,6 +99,16 @@ Arrays may contain objects without assigning them names:
 
 When css is transmitted over the Internet it is often minimized.  This saves bandwidth.  
 
+## `jq`
+
+The `jq` command is an extremely powerful command for handling JSON data.  It contains an entire programming language within it.
+
+`jq` "filters" incoming data from a stream or a file.  Output from one filter may be piped to other filters. It can get complicated.
+
+The simplest filter is just a period.  I don't find anything that identifies what the period represents, but after playing with jq for a while I believe that that the period represents the "root" of the json structure.
+
+Here is a simple curl command that produces "minified" JSON.
+
 ## Sample Commands
 
 These are some commands I ran while investigating.  They are kind of like my working notes.
@@ -114,7 +124,7 @@ curl -s https://cat-fact.herokuapp.com/facts | jq . | less
 
 curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[] | {capital_city,  state}' 
 
-
+Create objects: curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq 'sort_by(.capital_city) | .[] | {  capital_city,  state }' 
 ```
 
 
