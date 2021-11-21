@@ -155,6 +155,10 @@ curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/
 
 # print the capital of each state
 curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[] .capital_city'
+
+# takes the basic array '.' then filters it through sort_by(.capital_city) 
+# and then just prints the capital city
+curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '. | sort_by(.capital_city) | .[] .capital_city'
 ```
 
 It is possible to make arrays and new objects from existing JSON.  It is also possible to merge two different JSON objects.  But that is mostly beyond what we are going to do here. 
