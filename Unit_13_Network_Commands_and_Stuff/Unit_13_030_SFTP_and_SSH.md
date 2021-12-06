@@ -20,7 +20,7 @@ Another thing we can use tunnels for is to transfer files.
 
 There are both command line interfaces and gui interfaces.  
 
-* push
+* put
 * get
 * ls (also dir)
 * cd, mkdir
