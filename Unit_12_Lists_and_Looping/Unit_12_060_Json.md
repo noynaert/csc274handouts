@@ -180,8 +180,11 @@ curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/
 curl -s https://cat-fact.herokuapp.com/facts | jq . | less
 
 curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq '.[] | {capital_city,  state}' 
-
 Create objects: curl -s https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.json | jq 'sort_by(.capital_city) | .[] | {  capital_city,  state }' 
+
+Some other sources:
+https://jsonplaceholder.typicode.com/users/
+https://ipapi.co/150.200.28.11/json/
 ```
 
 ## References
