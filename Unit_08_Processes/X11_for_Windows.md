@@ -2,7 +2,7 @@
 
 ## X11
 
-* The X11 package allows running GUI applications from a local *or remote* server
+* The X11 package allows running GUI applications from a local *or remote* client
 * Not a full desktop, especially when run remotely
 * The X11 terminology is backward from every other application
   * The "server" runs on your local machine
