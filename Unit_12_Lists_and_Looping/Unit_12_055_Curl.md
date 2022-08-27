@@ -4,11 +4,11 @@
 
 ## `curl` vs `wget`
 
-Earlier this semester we use `wget` to fetch files.  Both curl and wget retrieve files using the http and https protocols.  The difference is `wget` generally produces files while `curl` returns a stream to the console.
+Earlier this semester we use `wget` to fetch files. Both curl and wget retrieve files using the http and https protocols. The difference is `wget` generally produces files while `curl` returns a stream to the console.
 
 ```text
 $ curl -s http://api.open-notify.org/iss-now.json
-{"iss_position": {"longitude": "-69.9921", "latitude": "-46.1509"}, "timestamp": 1637424841, "message": "success"}noynaert@G508u:~$ curl http://woz.cs.missouriwestern.edu
+{"iss_position": {"longitude": "-69.9921", "latitude": "-46.1509"}, "timestamp": 1637424841, "message": "success"}noynaert@G508u:~$ curl http://woz.csmp.missouriwestern.edu
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -28,7 +28,7 @@ $ curl -s http://api.open-notify.org/iss-now.json
 </html
 ```
 
-But curl is rarely used for actual websites.  There is a lot of data on the Internet that is served up using the http protocol.  Use your browser to look at [http://api.open-notify.org/iss-now.json](http://api.open-notify.org/iss-now.json)  which shows the current location of the International Space Station.  Now try the following command.
+But curl is rarely used for actual websites. There is a lot of data on the Internet that is served up using the http protocol. Use your browser to look at [http://api.open-notify.org/iss-now.json](http://api.open-notify.org/iss-now.json) which shows the current location of the International Space Station. Now try the following command.
 
 ```bash
 curl http://api.open-notify.org/iss-now.json
@@ -36,11 +36,10 @@ curl http://api.open-notify.org/iss-now.json
 
 ## The -s option
 
-Some implementations of curl give data transfer information while the file is being downloaded as a progress bar.  The -s suppresses a  this output so you get the pure data from the website.  Newer implementations of curl seem to suppress the progress bar, but it is pretty standard to always include it.
-
+Some implementations of curl give data transfer information while the file is being downloaded as a progress bar. The -s suppresses a this output so you get the pure data from the website. Newer implementations of curl seem to suppress the progress bar, but it is pretty standard to always include it.
 
 ## More on `curl`
 
-Curl works with a large number of protocols other than http.  See the man page for a full list.  
+Curl works with a large number of protocols other than http. See the man page for a full list.
 
 Curl is also capable of sending form data and handling logins and cookies sent by the web site.
