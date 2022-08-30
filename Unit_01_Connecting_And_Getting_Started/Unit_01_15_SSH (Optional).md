@@ -12,7 +12,7 @@ In the following example, the userid is _abyron_ but yours will be different
 2. Type the following into your console or terminal:
 
 ```bash
-$ ssh abyron@woz.csmpmp.missouriwestern.edu
+$ ssh abyron@woz.csmp.missouriwestern.edu
 ```
 
 This is probably your first login to this computer so you will be prompted with a security warning. If you get the warning type "y" and hit enter. You should not get this warning again unless you log in from a different computer or use different software.
