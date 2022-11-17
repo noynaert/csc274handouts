@@ -18,7 +18,7 @@ sleep 1
 while [ $index -ne 0 ] ; do
     echo "$index ..."
     sleep 1 
-	index=$(($index-1))   $ decrement $index
+	index=$(($index-1))   # decrement $index
 done
 cowsay -f dragon-and-cow "Boom" | lolcat -h $(echo "$RANDOM % 10" | bc) -v 3
 ```
