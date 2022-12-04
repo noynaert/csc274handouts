@@ -1,0 +1,25 @@
+#!/usr/bin/python
+import json
+
+# Open the file
+fileName = "/var/www/html/bitcoin.txt"
+file = open(fileName,'r') # open file for reading
+lines = file.readlines()  # read entire file into array of lines
+file.close()
+
+# setup
+count = 0
+sum = 0
+
+# Process the lines
+for line in lines:
+  # print(line)
+  event = json.loads(line)
+  rate = event["rate"]
+  sum = sum + rate
+  count = count+1
+  if count%100 == 0:
+      print ("Count: %d  sum: %s"% (count,sum))
+
+print ("The average is %d"%(sum/count))
+print("Done!")

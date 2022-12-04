@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+echo "Starting"
+FILE="/var/www/html/bitcoin.txt"
+#FILE="bc.txt"
+COUNT=0
+SUM=0
+LAST=""
+while read line
+do
+   COUNT=$(($COUNT+1))
+   #echo "The count is $COUNT"
+   #echo "$line" | jq .rate
+   RATE=$( echo "$line" | jq .rate )
+   RATE=$(cut -d'.' -f1 <<< $RATE)
+   SUM=$(( $SUM+$RATE ))
+
+   DATE=$( echo "$line" | jq .time )
+   if [[ $DATE > $LAST ]] ; then LAST=$DATE ; fi
+
+   if [[ $(($COUNT % 100)) -eq 0 ]]
+   then
+      echo "$COUNT  The raw rate is $RATE and the sum is $SUM Last $LAST"
+   fi
+done < $FILE
+AVERAGE=$(( $SUM / $COUNT ))
+echo "The average is $AVERAGE"
+echo "The latest date is $DATE"
+echo "{\"average\" : $AVERAGE, \"last time\": $LAST}" | jq .
+echo "Done"
+

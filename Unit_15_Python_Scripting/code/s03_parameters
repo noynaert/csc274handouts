@@ -1,0 +1,15 @@
+#!/usr/bin/python
+import sys
+
+print(sys.argv)
+
+print("The number of arguments is", len(sys.argv))
+
+print("This script is named", sys.argv[0]);
+
+for arg in sys.argv[1:]:
+    print(arg)
+
+
+
+print("Done!")
