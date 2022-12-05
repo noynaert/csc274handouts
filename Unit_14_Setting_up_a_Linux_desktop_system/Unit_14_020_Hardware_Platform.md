@@ -6,7 +6,7 @@ Know your hardware first:
 * How much RAM does your system have?
 * How big is the hard disk?
 * What is your video card?
-  * Nvidea or not?
+  * NVIDIA or not?
 
 ## Dedicated old desktop or laptop
 
@@ -24,7 +24,7 @@ There are other ways to install Linux.  I don't think you are going to learn as 
 
 ### Raspberry Pi *et. al.*
 
-Runs ARM processor, about $100 with case and extras
+Runs ARM processor, about $250 with case and extras
 
 Needs HDMI monitor, keyboard, mouse
 
