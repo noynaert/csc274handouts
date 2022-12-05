@@ -60,11 +60,25 @@ Most systems derived from Ubuntu have fixed Snap (by removing it) and re-enablin
 
 Here are my recommendations:
 
-If you have a machine you do not want to duel boot and it is a very modern, well equipped system (i5 or better, 16 or more Gig of RAM, decent video card) then use PoP_OS.  That is what I have used all semester.  It is on my main desktop computer.
+My default answer for everyone is Linux Mint unless there is a reason not to.  
 
-If you are a new user or if you are going to dual boot, or if you are going to install on a weaker computer then I recommend Cinnamon Mint.  It is known as a beginner's system, but lately it has gotten a lot of respect as a strong voice that is not Ubuntu.  I had to buy a new laptop recently.  It is a powerful system.  I know what I am doing in Linux.  But I went with Linux Mint instead of Pop because I wanted to make it easier to dual boot.
+Linux Mint has a reputation as a good implementation for beginners.  And that is well deserved.  It installs with a minimum of fuss and doesn't sweat philosophical issues about things like proprietary drivers.  The objective is to get a system that install and runs on just about any piece of computer junk you have lying around.
 
-There is a new and interesting kid on the block (well, not that new.  It is in version 5.  But it is getting a lot of notice.)  Linux Mint has a release of "Linux Mint Debian Edition."  They have made a version of Mint that is based on Debian, not Linux.  It seems to be catching on.   I am currently in the process of setting up a server at home.  I bought a decent used computer on Ebay for $50 plus $21 in shipping.  I do not plan to dual boot (it didn't come with Windows)  I am going to put LMDE on it.  I would have put it on my laptop, but there are still a lot of dual-boot issues with it.  But for this little server it is perfect.  
+But lately Linux Mint has gotten a lot of favorable attention.  They are downstream of Ubuntu, but in many ways they are taking effective stands against Ubuntu.
 
+The default desktop for Linux Mint is their own "Cinnamon" desktop.  I don't particularly like it.  I suggest you try it out.  It is basically like Windows 7.  If you don't like it you can install another desktop.  I like Windows Managers and KDE Plasma.  Those can be added to Linux Mint later if you want.  You can also add the standard Gnome desktop.
 
+Linux Mint is a good choice as long as *any* of the following conditions are met.
 
+* You want to dual boot
+* You are a novice at Linux
+* Your hardware is older.  Mint will run very well on systems laptops that run Windows 7.  It will even run well on some systems that are older than that.
+* You are not running a public server
+
+There are other Linux distributions that are good if you have special conditions
+
+My main desktop computer runs PoP_OS.  It is great for developers.  The two major downsides are that it requires fairly high-performance hardware and it does not automatically set up dual booting.  My computer was bought for me to do schoolwork on, and it is fairly high-end.  I did want to preserve the Windows system that came with it, and I was able to fiddle with the boot system to enable dual booting.  
+
+If dual booting isn't required, then I suggest LMDE.  I just bought an EBay used desktop computer for $50 plus $21 shipping.  It has 16 Gig of RAM, and older I7 processor, and 500GB hard drive.  I am going to use it for a home server for running NextCloud and our holiday displays as well as miscellaneous household automation tasks.  Dual booting isn't a problem.  LMDE is an project being done by Linux Mint.  The LMDE ditches Ubuntu entirely and goes builds off Debian directly.  The current version does not dual boot very well.  But my $50 computer came without Windows, and generally I have no need for dual boot on that system.
+
+If you are setting up a public server, then I suggest something in the Red Hat family.  That will generally provide the best security.  Pure Red Hat is a great choice for a server if you can afford it.  Fedora is another choice.  It has good security, but it isn't as stable as Red Hat.  (Woz runs Fedora).  If you don't want to pay for Red Hat and want a stable server, then CentOS or SUSE are good choices.
